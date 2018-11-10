@@ -1,0 +1,11 @@
+.DS_Store
+.envrc
+.sass-cache
+.yalc/
+Thumbs.db
+node_modules
+npm-debug.log
+tmp
+yarn-error.log
+yalc.lock
+*~
