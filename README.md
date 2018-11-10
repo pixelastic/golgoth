@@ -24,10 +24,6 @@ golgoth.pify();
 
 // import only what you need
 import { pAll, pMap } from 'golgoth';
-
-// alternative syntax
-import pAll from 'golgoth/pAll';
-import pMap from 'golgoth/pMap';
 ```
 
 ## Notes
