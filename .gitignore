@@ -3,9 +3,10 @@
 .sass-cache
 .yalc/
 Thumbs.db
+build/
 node_modules
 npm-debug.log
 tmp
-yarn-error.log
 yalc.lock
+yarn-error.log
 *~
