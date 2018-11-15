@@ -5,6 +5,7 @@
     "lodash": "4.17.11",
     "p-all": "1.0.0",
     "p-map": "2.0.0",
+    "p-map-series": "1.0.0",
     "pify": "4.0.1"
   },
   "description": "Meta-package including all the libs I always need (lodash, pify, etc)",
