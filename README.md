@@ -10,6 +10,7 @@ for me, to install them all in one go.
 
 - `chalk`: Pretty colors in terminal output
 - `dayjs`: Easy date parsing and comparing
+- `got`: HTTP requests made easy
 - `firost`: Own filesystem helper functions
 - `lodash`: JavaScript utility belt
 - `pAll`, `pMap` and `pMapSeries`: Iterate over `async` methods
