@@ -9,9 +9,12 @@ for me, to install them all in one go.
 ## Libraries included
 
 - `chalk`: Pretty colors in terminal output
+- `dayjs`: Easy date parsing and comparing
+- `firost`: Own filesystem helper functions
 - `lodash`: JavaScript utility belt
-- `pAll` and `pMap`: Iterate over `async` methods
+- `pAll`, `pMap` and `pMapSeries`: Iterate over `async` methods
 - `pify`: Convert those pesky callbacks into Promises
+- `query-string`: Parse query strings
 
 ## Usage
 
