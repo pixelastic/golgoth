@@ -30,6 +30,21 @@ golgoth.pify();
 import { pAll, pMap } from 'golgoth';
 ```
 
+## Additions
+
+## `spinner(max)`
+
+Creates a spinner for displaying progress of a task. Uses `ora` internally.
+
+```js
+const items = ['foo', 'bar', 'baz'];
+const spinner = firost.spinner(42);
+_.each(items, item => {
+  spinner.tick(item);
+});
+spinner.succeed('All items scanned');
+```
+
 ## Notes
 
 `lodash` is available either as `lodash` or `_`.
