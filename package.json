@@ -3,7 +3,7 @@
   "dependencies": {
     "chalk": "2.4.1",
     "dayjs": "1.7.7",
-    "firost": "0.0.18",
+    "firost": "0.0.20",
     "got": "9.3.2",
     "lodash": "4.17.11",
     "ora": "3.0.0",
@@ -16,7 +16,7 @@
   },
   "description": "Meta-package including all the libs I always need (lodash, pify, etc)",
   "devDependencies": {
-    "aberlaas": "0.0.9"
+    "aberlaas": "0.0.22"
   },
   "files": [
     "build/"
@@ -27,12 +27,12 @@
   "repository": "git@github.com:pixelastic/golgoth.git",
   "scripts": {
     "build": "babel-node ./scripts/build.js",
-    "build:watch": "aberlaas build --watch",
-    "lint": "aberlaas lint",
-    "lint:fix": "aberlaas lint --fix",
-    "release": "aberlaas release",
-    "test": "aberlaas test",
-    "test:watch": "aberlaas test --watch"
+    "build:watch": "./scripts/build-watch",
+    "lint": "./scripts/lint",
+    "lint:fix": "./scripts/lint-fix",
+    "release": "./scripts/release",
+    "test": "./scripts/test",
+    "test:watch": "./scripts/test-watch"
   },
   "version": "0.0.11"
 }
