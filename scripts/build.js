@@ -16,7 +16,7 @@ import _ from 'lodash';
     content.push(`export const ${exportName} = golgoth.${exportName};`);
   });
 
-  await firost.write('./build/tmp.js', content.join('\n'));
+  await firost.write(content.join('\n'), './build/tmp.js');
 
   await firost.shell('babel ./build/tmp.js --out-file ./build/index.js');
   await firost.shell('rm ./build/tmp.js');
