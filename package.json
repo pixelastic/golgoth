@@ -27,7 +27,6 @@
   "repository": "git@github.com:pixelastic/golgoth.git",
   "scripts": {
     "build": "babel-node ./scripts/build.js",
-    "build:watch": "./scripts/build-watch",
     "lint": "./scripts/lint",
     "lint:fix": "./scripts/lint-fix",
     "release": "./scripts/release",
