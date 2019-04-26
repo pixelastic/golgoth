@@ -3221,10 +3221,10 @@ firost@0.0.19:
     query-string "6.2.0"
     shelljs "0.8.2"
 
-firost@0.0.20:
-  version "0.0.20"
-  resolved "https://registry.yarnpkg.com/firost/-/firost-0.0.20.tgz#dfcf3da83dd43230fbdce31f2bde94add5c3e043"
-  integrity sha512-bsyjf8i1n77GK19Jp+VnLKeCBJQyIGreymgIqbGmNGWcI6r7Q0tqQFYSWYMD6X3A4hN/U3F3FyLk1eXARg1r5A==
+firost@0.0.21:
+  version "0.0.21"
+  resolved "https://registry.yarnpkg.com/firost/-/firost-0.0.21.tgz#06e0eee3e11dc794f7e49129137953a6d7ec1952"
+  integrity sha512-M/WEWa+3D0/J2BAqMomt+aNBbUoevOV6lKqxQ4er/3BV/9ly8eKyS/xlf4krXVw2uUqmRaFrk1EbzAP+0/zn2w==
   dependencies:
     chokidar "2.1.5"
     fs-extra "7.0.0"
