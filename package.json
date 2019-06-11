@@ -3,7 +3,7 @@
   "dependencies": {
     "chalk": "2.4.1",
     "dayjs": "1.7.7",
-    "firost": "0.0.21",
+    "firost": "0.0.23",
     "got": "9.3.2",
     "lodash": "4.17.11",
     "ora": "3.0.0",
