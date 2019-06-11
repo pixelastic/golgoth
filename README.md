@@ -12,7 +12,6 @@ for me, to install them all in one go.
 | ---------------------------------------------- | --------------------------------------------------------------------------------- |
 | [`chalk`][1]                                   | Pretty colors in terminal output. Default colors updated to match my colorscheme. |
 | [`dayjs`][2]                                   | Easy date parsing and comparing                                                   |
-| [`firost`][3]                                  | My own filesystem helper functions                                                |
 | [`got`][4]                                     | HTTP requests made easy                                                           |
 | [`lodash`][5]                                  | JavaScript utility belt                                                           |
 | [`pAll`][6], [`pMap`][7] and [`pMapSeries`][8] | Iterate over `async` methods                                                      |
@@ -40,7 +39,7 @@ Creates a spinner for displaying progress of a task. Uses `ora` internally.
 
 ```js
 const items = ['foo', 'bar', 'baz'];
-const spinner = firost.spinner(42);
+const spinner = golgoth.spinner(42);
 _.each(items, item => {
   spinner.tick(item);
 });
@@ -54,7 +53,6 @@ spinner.fail('Error while scanning items');
 
 [1]: https://yarnpkg.com/en/package/chalk
 [2]: https://yarnpkg.com/en/package/dayjs
-[3]: https://yarnpkg.com/en/package/firost
 [4]: https://yarnpkg.com/en/package/got
 [5]: https://yarnpkg.com/en/package/lodash
 [6]: https://yarnpkg.com/en/package/p-all
