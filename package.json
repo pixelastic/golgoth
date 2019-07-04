@@ -14,7 +14,7 @@
   },
   "description": "Meta-package including all the libs I always need (lodash, pify, etc)",
   "devDependencies": {
-    "aberlaas": "~0.0.0",
+    "aberlaas": "~0.1.0",
     "firost": "~0.1.0"
   },
   "files": [
@@ -29,6 +29,12 @@
     "build:watch": "./scripts/build-watch",
     "lint": "./scripts/lint",
     "lint:fix": "./scripts/lint-fix",
+    "lint:css": "./scripts/lint-css",
+    "lint:css:fix": "./scripts/lint-css-fix",
+    "lint:js": "./scripts/lint-js",
+    "lint:js:fix": "./scripts/lint-js-fix",
+    "lint:json": "./scripts/lint-json",
+    "lint:json:fix": "./scripts/lint-json-fix",
     "release": "./scripts/release",
     "test": "./scripts/test",
     "test:watch": "./scripts/test-watch"
