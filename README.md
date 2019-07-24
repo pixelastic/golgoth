@@ -17,6 +17,7 @@ for me, to install them all in one go.
 | [`pAll`][6], [`pMap`][7] and [`pMapSeries`][8] | Iterate over `async` methods                                                      |
 | [`pify`][9]                                    | Convert those pesky callbacks into Promises                                       |
 | [`query-string`][10]                           | Parse query strings                                                               |
+| [`time-span`][3]                               | Simplified timers                                                                 |
 
 ## Usage
 
@@ -53,6 +54,7 @@ spinner.fail('Error while scanning items');
 
 [1]: https://yarnpkg.com/en/package/chalk
 [2]: https://yarnpkg.com/en/package/dayjs
+[3]: https://yarnpkg.com/en/package/time-span
 [4]: https://yarnpkg.com/en/package/got
 [5]: https://yarnpkg.com/en/package/lodash
 [6]: https://yarnpkg.com/en/package/p-all
