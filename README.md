@@ -34,6 +34,30 @@ import { pAll, pMap } from 'golgoth';
 
 ## Additions
 
+## `_.flatten()` and `_.unflatten()` for objects
+
+Takes any nested object and flatten its keys, or revert it
+
+```js
+const data = {
+  foo: {
+    bar: ['baz', 'quxx'],
+  },
+};
+const flatData = _.flatten(data);
+console.info(flatData);
+// {
+//   'foo.bar.0': 'baz',
+//   'foo.bar.1': 'quxx'
+// }
+console.info(_.unflatten(flatData));
+// {
+//  foo: {
+//    bar: ['baz', 'quxx']
+//  }
+// }
+```
+
 ## `spinner(max)`
 
 Creates a spinner for displaying progress of a task. Uses `ora` internally.
