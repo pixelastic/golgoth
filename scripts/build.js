@@ -19,5 +19,5 @@ import _ from 'lodash';
   await firost.write(content.join('\n'), './build/tmp.js');
 
   await firost.shell('babel ./build/tmp.js --out-file ./build/index.js');
-  await firost.shell('rm ./build/tmp.js');
+  await firost.remove('./build/tmp.js');
 })();

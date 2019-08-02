@@ -2814,10 +2814,10 @@ firost@0.7.1:
     json-stable-stringify "1.0.1"
     shelljs "0.8.2"
 
-firost@0.7.2:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/firost/-/firost-0.7.2.tgz#89784d037766d0d315edcde95d26ab1c5938e222"
-  integrity sha512-TFtwNCbZX8ni1xsLAXtn0JZFEBgF8EWonYb8xx/01Dp30fdjjo80KzgsXMI3kUUGd8wwgGeJmhzv/wYX9hqyPg==
+firost@0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/firost/-/firost-0.8.1.tgz#3d84a364e59c77532d2e3671adcf77dc628275fe"
+  integrity sha512-bY8GhXKjb+4SdoukMPdcR20KzEXjCgp0u+4CYn3lnlpq8iM8YgQM3IkY/laBIeV2C8a+XBzKeU2xMb915/aylQ==
   dependencies:
     chokidar "3.0.2"
     fs-extra "7.0.0"
