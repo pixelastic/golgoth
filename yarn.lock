@@ -1087,7 +1087,7 @@ abbrev@1:
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
 
-aberlaas@^0.4.8:
+aberlaas@0.4.8:
   version "0.4.8"
   resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-0.4.8.tgz#13ea7b637a7ae47e55917a6344e69abdf7c9f4fb"
   integrity sha512-CDyqInGuPLnduxM5uKdKsT9bApmmcw1rHxovYFu9ymHRudcXZQSyqhLOo/5Wf96d6AXaEtYzmqYWzy3jKTvQeg==
@@ -2817,7 +2817,7 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-firost@^0.13.0:
+firost@0.13.0, firost@^0.13.0:
   version "0.13.0"
   resolved "https://registry.yarnpkg.com/firost/-/firost-0.13.0.tgz#f5f84bf8945a31a2af392ecf0b2b4017e065da86"
   integrity sha512-OMUDvMRPTvDtfCId+KqYpQzVMC6PChHnF6mWiz0pDBVPJ2frCax/n6I5ES0gs761uMZBZd0ANmAENT7W8w0t/w==
