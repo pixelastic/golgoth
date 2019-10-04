@@ -1,0 +1,11 @@
+{
+  "extends": ["config:base"],
+  "prCreation": "not-pending",
+  "packageRules": [
+    {
+      "description": "Auto-update lodash as soon as possible",
+      "packagePatterns": ["lodash"],
+      "automerge": true
+    }
+  ]
+}
