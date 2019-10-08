@@ -10,6 +10,7 @@
     "p-all": "1.0.0",
     "p-map": "2.0.0",
     "p-map-series": "1.0.0",
+    "p-settle": "3.1.0",
     "pify": "4.0.1",
     "query-string": "6.2.0",
     "time-span": "3.1.0"
