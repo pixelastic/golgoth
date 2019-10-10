@@ -16,7 +16,7 @@
   },
   "description": "Meta-package including all the libs I always need (lodash, pify, etc)",
   "devDependencies": {
-    "aberlaas": "0.4.8",
+    "aberlaas": "0.6.4",
     "firost": "0.13.0"
   },
   "files": [
