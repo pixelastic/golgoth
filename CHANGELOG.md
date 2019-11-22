@@ -1,3 +1,5 @@
+## [0.5.1](https://github.com/pixelastic/golgoth/compare/0.5.0...0.5.1) (2019-11-22)
+
 # [0.5.0](https://github.com/pixelastic/golgoth/compare/0.4.2...0.5.0) (2019-11-13)
 
 
