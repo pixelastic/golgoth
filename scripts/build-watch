@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
-echo "Watching for changes in ./lib"
-when-changed -1 ./lib/* -c "echo -n 'Building...' && yarn run build && echo ' ✔ Done'"
+set -e
 
+aberlaas build "$@" --watch

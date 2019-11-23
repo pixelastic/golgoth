@@ -6,16 +6,16 @@
     "flat": "5.0.0",
     "got": "9.6.0",
     "lodash": "^4.17.15",
-    "pify": "4.0.1",
     "p-all": "2.1.0",
     "p-map": "3.0.0",
     "p-map-series": "2.1.0",
+    "pify": "4.0.1",
     "query-string": "6.9.0",
     "time-span": "3.1.0"
   },
   "description": "Meta-package including all the libs I always need (lodash, pify, etc)",
   "devDependencies": {
-    "aberlaas": "0.7.0",
+    "aberlaas": "0.7.3",
     "firost": "0.16.0"
   },
   "files": [
@@ -26,7 +26,7 @@
   "name": "golgoth",
   "repository": "git@github.com:pixelastic/golgoth.git",
   "scripts": {
-    "build": "babel-node ./scripts/build.js",
+    "build": "./scripts/build",
     "build:watch": "./scripts/build-watch",
     "husky:precommit": "./scripts/husky-precommit",
     "lint": "./scripts/lint",

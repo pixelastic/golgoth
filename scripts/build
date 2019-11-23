@@ -1,2 +1,4 @@
 #!/usr/bin/env sh
-# Do not use this script. Use build.js instead
+set -e
+
+aberlaas build "$@"
