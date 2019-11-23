@@ -1,3 +1,10 @@
+# [0.6.0](https://github.com/pixelastic/golgoth/compare/0.5.1...0.6.0) (2019-11-23)
+
+
+### Features
+
+* **loader:** Use simpler loading resolution ([d935087](https://github.com/pixelastic/golgoth/commit/d935087431647deb63af8a31c14d43840e95004b))
+
 ## [0.5.1](https://github.com/pixelastic/golgoth/compare/0.5.0...0.5.1) (2019-11-22)
 
 # [0.5.0](https://github.com/pixelastic/golgoth/compare/0.4.2...0.5.0) (2019-11-13)
