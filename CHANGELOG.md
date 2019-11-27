@@ -1,3 +1,15 @@
+## [0.6.1](https://github.com/pixelastic/golgoth/compare/0.6.0...0.6.1) (2019-11-27)
+
+
+### Bug Fixes
+
+* **engines:** Do not pin engines ([541b642](https://github.com/pixelastic/golgoth/commit/541b642f85ec37cb33124a7eb5452c4bc24506a1))
+
+
+### Features
+
+* **ci:** Add CI integration ([3adbace](https://github.com/pixelastic/golgoth/commit/3adbacee6bf0215e57c7a752903d298a3ae0057d))
+
 # [0.6.0](https://github.com/pixelastic/golgoth/compare/0.5.1...0.6.0) (2019-11-23)
 
 
