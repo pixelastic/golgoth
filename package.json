@@ -18,10 +18,6 @@
     "aberlaas": "0.9.0",
     "firost": "0.16.0"
   },
-  "engines": {
-    "node": "13.1.0",
-    "yarn": "1.19.1"
-  },
   "files": [
     "build/"
   ],
