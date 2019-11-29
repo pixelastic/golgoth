@@ -1,3 +1,10 @@
+## [0.6.2](https://github.com/pixelastic/golgoth/compare/0.6.1...0.6.2) (2019-11-29)
+
+
+### Features
+
+* **node:** Downgrade to node 12 instead of node 13 ([829c185](https://github.com/pixelastic/golgoth/commit/829c1854f4e2c5b100a7effe4b4ed8140e1b7c2b))
+
 ## [0.6.1](https://github.com/pixelastic/golgoth/compare/0.6.0...0.6.1) (2019-11-27)
 
 
