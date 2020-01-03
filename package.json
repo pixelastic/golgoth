@@ -2,9 +2,9 @@
   "author": "Pixelastic <tim@pixelastic.com>",
   "dependencies": {
     "chalk": "3.0.0",
-    "dayjs": "1.8.17",
+    "dayjs": "1.8.18",
     "flat": "5.0.0",
-    "got": "9.6.0",
+    "got": "10.2.1",
     "lodash": "^4.17.15",
     "p-all": "2.1.0",
     "p-map": "3.0.0",
@@ -15,8 +15,8 @@
   },
   "description": "Meta-package including all the libs I always need (lodash, pify, etc)",
   "devDependencies": {
-    "aberlaas": "0.10.6",
-    "firost": "0.16.0"
+    "aberlaas": "0.10.7",
+    "firost": "0.19.3"
   },
   "files": [
     "build/"
