@@ -1223,10 +1223,10 @@ abab@^2.0.0:
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.3.tgz#623e2075e02eb2d3f2475e49f99c91846467907a"
   integrity sha512-tsFzPpcttalNjFBCFMqsKYQcWxxen1pgJR56by//QwvJc4/OUS3kPOOttx2tSIfjsylB0pYu7f5D3K1RCxUnUg==
 
-aberlaas@0.10.7:
-  version "0.10.7"
-  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-0.10.7.tgz#52b5ba23d691dab631fbb2b4cdedb4be448ba9a9"
-  integrity sha512-YgnEj5taEWrUy0DzrhHwZ3Kyt4pGO09TiDS6hT6AW9sOcuXq0ThBmqE/XXdbwuEwcYcpbDoLtED8LZJ1y3fUCQ==
+aberlaas@0.10.9:
+  version "0.10.9"
+  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-0.10.9.tgz#721cf59a65f37d652f4430fe47cba5323cf4b6f8"
+  integrity sha512-cAL/XZk2hPC1ABWv+7EA9NAgcj0tLD9TwxtQRxsDahUTIwK6/vwrfnn6CWswIXvEP1fPwC4a1KQXB97D7u6gIw==
   dependencies:
     "@babel/cli" "7.7.4"
     "@babel/core" "7.7.4"
@@ -1245,7 +1245,7 @@ aberlaas@0.10.7:
     eslint-plugin-jsdoc "18.1.5"
     eslint-plugin-prettier "3.1.1"
     firost "0.19.3"
-    golgoth "0.6.1"
+    golgoth "0.6.4"
     husky "3.1.0"
     jasmine-fail-fast "2.0.0"
     jest "24.9.0"
@@ -3678,6 +3678,23 @@ golgoth@0.6.1:
     dayjs "1.8.17"
     flat "5.0.0"
     got "9.6.0"
+    lodash "^4.17.15"
+    p-all "2.1.0"
+    p-map "3.0.0"
+    p-map-series "2.1.0"
+    pify "4.0.1"
+    query-string "6.9.0"
+    time-span "3.1.0"
+
+golgoth@0.6.4:
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.6.4.tgz#9e5480090e47ace911003027c99faa9d2427a378"
+  integrity sha512-R9Zyl35aGuzLP4Somq4iRZlDqwG0GMcxGjhyXwddL5jFZi52h/K0NEdDCy5xSj5qb83zLk0i9+Fz/e27vxMPhA==
+  dependencies:
+    chalk "3.0.0"
+    dayjs "1.8.18"
+    flat "5.0.0"
+    got "10.2.1"
     lodash "^4.17.15"
     p-all "2.1.0"
     p-map "3.0.0"
