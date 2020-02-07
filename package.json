@@ -3,6 +3,7 @@
   "dependencies": {
     "chalk": "3.0.0",
     "dayjs": "1.8.20",
+    "esm": "3.2.25",
     "flat": "5.0.0",
     "got": "10.4.0",
     "lodash": "^4.17.15",
@@ -19,15 +20,13 @@
     "firost": "0.21.0"
   },
   "files": [
-    "build/"
+    "lib/"
   ],
   "license": "MIT",
-  "main": "build/index.js",
+  "main": "lib/main.js",
   "name": "golgoth",
   "repository": "git@github.com:pixelastic/golgoth.git",
   "scripts": {
-    "build": "./scripts/build",
-    "build:watch": "./scripts/build-watch",
     "ci": "./scripts/ci",
     "husky:precommit": "./scripts/husky-precommit",
     "lint": "./scripts/lint",
