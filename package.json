@@ -20,7 +20,7 @@
     "firost": "0.21.0"
   },
   "files": [
-    "lib/"
+    "lib/*.js"
   ],
   "license": "MIT",
   "main": "lib/main.js",
