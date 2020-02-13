@@ -1,3 +1,25 @@
+# [1.0.0](https://github.com/pixelastic/golgoth/compare/0.6.4...1.0.0) (2020-02-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency dayjs to v1.8.19 ([dd85045](https://github.com/pixelastic/golgoth/commit/dd850450d6dda09890072b1228c039cefbd56308))
+* **deps:** update dependency dayjs to v1.8.20 ([44f7422](https://github.com/pixelastic/golgoth/commit/44f7422cca49851db13cf05fc36759b7946afce9))
+* **deps:** update dependency got to v10.2.2 ([71340ab](https://github.com/pixelastic/golgoth/commit/71340aba266d4b5d032c67c3a1574c9550e9ddb9))
+* **deps:** update dependency got to v10.3.0 ([14be96c](https://github.com/pixelastic/golgoth/commit/14be96cf42e738e4279277407c2017cd513f6bb7))
+* **deps:** update dependency got to v10.4.0 ([621ea2a](https://github.com/pixelastic/golgoth/commit/621ea2aedac3cd77f40bb1fd55fc43bf082b00a1))
+* **deps:** update dependency got to v10.5.0 ([0f6d802](https://github.com/pixelastic/golgoth/commit/0f6d802db0518a29ed7045fbd7dfab8aa157d3ea))
+* **deps:** update dependency got to v10.5.2 ([2e036e5](https://github.com/pixelastic/golgoth/commit/2e036e579a267dd38b67ae4571f7e90507d0ded3))
+* **deps:** update dependency got to v10.5.4 ([eb38ccb](https://github.com/pixelastic/golgoth/commit/eb38ccbb6cff7403599e7feae0bc1a415076f02c))
+* **deps:** update dependency got to v10.5.5 ([8018553](https://github.com/pixelastic/golgoth/commit/80185536003aeff317e7a7b894be964f2c33698f))
+* **deps:** update dependency query-string to v6.10.0 ([191df03](https://github.com/pixelastic/golgoth/commit/191df033b4366b7a34a7541c40656d2dc5f13e43))
+* **deps:** update dependency query-string to v6.10.1 ([c96152a](https://github.com/pixelastic/golgoth/commit/c96152ac9480655d598c47f99290495ed33eb797))
+
+
+### Features
+
+* **esm:** Remove build step and allow access to internals ([6e2854f](https://github.com/pixelastic/golgoth/commit/6e2854f03cbecc3b0e5436cfd4ca2fd12c7d38ba))
+
 ## [0.6.4](https://github.com/pixelastic/golgoth/compare/0.6.3...0.6.4) (2020-01-03)
 
 ## [0.6.3](https://github.com/pixelastic/golgoth/compare/0.6.2...0.6.3) (2019-12-20)
