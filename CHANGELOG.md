@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/pixelastic/golgoth/compare/1.0.2...1.0.3) (2020-02-13)
+
+
+### Features
+
+* **release:** Stop releasing tests ([8997a12](https://github.com/pixelastic/golgoth/commit/8997a126d6a012b18a95fda2ac654780890cad1a))
+
 ## [1.0.2](https://github.com/pixelastic/golgoth/compare/1.0.1...1.0.2) (2020-02-13)
 
 
