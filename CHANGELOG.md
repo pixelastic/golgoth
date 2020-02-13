@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/pixelastic/golgoth/compare/1.0.0...1.0.1) (2020-02-13)
+
+
+### Bug Fixes
+
+* **lodash:** Export lodash as _ ([6697f50](https://github.com/pixelastic/golgoth/commit/6697f50ce77be631caffaa463f0a84db8fc6e6f7))
+
 # [1.0.0](https://github.com/pixelastic/golgoth/compare/0.6.4...1.0.0) (2020-02-13)
 
 
