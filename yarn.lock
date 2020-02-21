@@ -1285,10 +1285,10 @@ abab@^2.0.0:
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.3.tgz#623e2075e02eb2d3f2475e49f99c91846467907a"
   integrity sha512-tsFzPpcttalNjFBCFMqsKYQcWxxen1pgJR56by//QwvJc4/OUS3kPOOttx2tSIfjsylB0pYu7f5D3K1RCxUnUg==
 
-aberlaas@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-1.1.0.tgz#389aa76a9a88210cfba895f11688e8bdd3f495fa"
-  integrity sha512-NTmBm/cgf+zSAIc8fQ5EuY6vQfLPxrU8HUT9THbuDmUzspQRzkKNk3U72SUEJckFj2aa/JTT+4yzioiYos6ojA==
+aberlaas@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-1.1.1.tgz#69c485890a3667039dfa31f79449ee55a3a898e7"
+  integrity sha512-fe+K6Vz56iYTL2m4LftITO09Yf5aZmO9a2intWD2IoemY5JwHHxlp2K2RgI+ODdZxrRS46gRWb/j+2eDBDtcMQ==
   dependencies:
     "@babel/cli" "7.8.4"
     "@babel/core" "7.8.4"
@@ -1308,8 +1308,8 @@ aberlaas@1.1.0:
     eslint-plugin-jsdoc "20.4.0"
     eslint-plugin-prettier "3.1.2"
     esm "3.2.25"
-    firost "1.1.1"
-    golgoth "1.0.4"
+    firost "1.2.1"
+    golgoth "1.1.1"
     husky "3.1.0"
     import-lazy "4.0.0"
     jasmine-fail-fast "2.0.1"
@@ -3476,10 +3476,10 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-firost@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/firost/-/firost-1.1.1.tgz#ea4b972023696baacc43bf84ab68028fb1085e4b"
-  integrity sha512-B7T0w/pELr56mJg/zSmgZ/YUh3ZLvxcSLptsDjXFS984zBWAL10tQ1w7ivctAmBw9yxiy8EhHjMKyoqkP4bCfg==
+firost@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/firost/-/firost-1.2.1.tgz#b13726fb83c0ff076b83e1adbbe417477a9a81c1"
+  integrity sha512-vek/xWQ/TEQwLiRjDKA49QvU+uQ2E60i/2wm9DCfIJF1h3vr6VxlEVJFvulEMhwTSlMNyGRd5vSbaWTkJOsiBw==
   dependencies:
     chokidar "3.3.1"
     esm "3.2.25"
@@ -3487,27 +3487,7 @@ firost@1.1.1:
     execa "4.0.0"
     fs-extra "8.1.0"
     globby "10.0.2"
-    golgoth "1.0.4"
-    inquirer "7.0.4"
-    is-glob "4.0.1"
-    json-stable-stringify "1.0.1"
-    nanoid "2.1.11"
-    ora "4.0.3"
-    shelljs "0.8.3"
-    which "2.0.2"
-
-firost@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/firost/-/firost-1.2.0.tgz#10f03e971b4d88b4364b114293ae0856b670f12a"
-  integrity sha512-Cc6T6p2bN80nPPMxvyEJxK0velMKxH87j4lhdGC+R5saztR29G5qKSnGJPcpYO7wRtyRDLaStcmNfSZ1IywivQ==
-  dependencies:
-    chokidar "3.3.1"
-    esm "3.2.25"
-    eventemitter2 "6.0.0"
-    execa "4.0.0"
-    fs-extra "8.1.0"
-    globby "10.0.2"
-    golgoth "1.0.4"
+    golgoth "1.1.1"
     inquirer "7.0.4"
     is-glob "4.0.1"
     json-stable-stringify "1.0.1"
@@ -3873,17 +3853,17 @@ globjoin@^0.1.4:
   resolved "https://registry.yarnpkg.com/globjoin/-/globjoin-0.1.4.tgz#2f4494ac8919e3767c5cbb691e9f463324285d43"
   integrity sha1-L0SUrIkZ43Z8XLtpHp9GMyQoXUM=
 
-golgoth@1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-1.0.4.tgz#110ba9bf1a994e3cc2f9b0517dead1f0b9a79469"
-  integrity sha512-8ZAl0hNHs9ZPcV711g4gMJv8RUWB4qE5R5Pdi8p8OeOt8QOdxb10woEE4WN/shR4NNznLjUPWvrQ8341GziRZQ==
+golgoth@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-1.1.1.tgz#3d617f2a7e2a3c3954072460189fe0b412a78b22"
+  integrity sha512-HVh0mZt9enbrDgfYepU//QD/0hvOBvl3XAvJbngAAlr2u5ySMczZOd/M/LtgFbLKnCjJeVOCMT5M/JUKN54nwQ==
   dependencies:
     chalk "3.0.0"
     dayjs "1.8.20"
     esm "3.2.25"
     flat "5.0.0"
     got "10.5.7"
-    lodash "^4.17.15"
+    lodash "4.17.15"
     p-all "2.1.0"
     p-map "3.0.0"
     p-map-series "2.1.0"
