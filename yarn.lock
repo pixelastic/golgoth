@@ -6741,7 +6741,7 @@ p-map-series@2.1.0:
   resolved "https://registry.yarnpkg.com/p-map-series/-/p-map-series-2.1.0.tgz#7560d4c452d9da0c07e692fdbfe6e2c81a2a91f2"
   integrity sha512-RpYIIK1zXSNEOdwxcfe7FdvGcs7+y5n8rifMhMNWvaxRNMPINJHF5GDeuVxWqnfrcHPSCnp7Oo5yNXHId9Av2Q==
 
-p-map@3.0.0:
+p-map@3.0.0, p-map@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/p-map/-/p-map-3.0.0.tgz#d704d9af8a2ba684e2600d9a215983d4141a979d"
   integrity sha512-d3qXVTF/s+W+CdJ5A29wywV2n8CQQYahlgz2bFiA+4eVNJbHJodPZ+/gXwPGh0bOqA+j8S+6+ckmvLGPk1QpxQ==
@@ -6760,6 +6760,13 @@ p-memoize@^3.1.0:
   dependencies:
     mem "^4.3.0"
     mimic-fn "^2.1.0"
+
+p-props@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.npmjs.org/p-props/-/p-props-3.1.0.tgz#9c4559386df4584bfa7af8209ae7286e55aa0d2f"
+  integrity sha512-N9mPfJfnApIlyCmF6H2KKccOsW9a1um2aIZWh/dU6flpJ5uU3fYDPVYfjOPLTbLVnUn+lcTqtlxxCVylM3mYsw==
+  dependencies:
+    p-map "^3.0.0"
 
 p-timeout@^2.0.1:
   version "2.0.1"
