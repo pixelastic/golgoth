@@ -8,16 +8,16 @@ for me, to install them all in one go.
 
 ## Libraries included
 
-| Name                                           | Description                                                                       |
-| ---------------------------------------------- | --------------------------------------------------------------------------------- |
-| [`chalk`][1]                                   | Pretty colors in terminal output. Default colors updated to match my colorscheme. |
-| [`dayjs`][2]                                   | Easy date parsing and comparing                                                   |
-| [`got`][4]                                     | HTTP requests made easy                                                           |
-| [`lodash`][5]                                  | JavaScript utility belt                                                           |
-| [`pAll`][6], [`pMap`][7] and [`pMapSeries`][8] | Iterate over `async` methods                                                      |
-| [`pify`][9]                                    | Convert those pesky callbacks into Promises                                       |
-| [`query-string`][10]                           | Parse query strings                                                               |
-| [`time-span`][3]                               | Simplified timers                                                                 |
+| Name                                                           | Description                                                                       |
+| -------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| [`chalk`][1]                                                   | Pretty colors in terminal output. Default colors updated to match my colorscheme. |
+| [`dayjs`][2]                                                   | Easy date parsing and comparing                                                   |
+| [`got`][4]                                                     | HTTP requests made easy                                                           |
+| [`lodash`][5]                                                  | JavaScript utility belt                                                           |
+| [`pAll`][6], [`pMap`][7], [`pProps`][11] and [`pMapSeries`][8] | Iterate over `async` methods                                                      |
+| [`pify`][9]                                                    | Convert those pesky callbacks into Promises                                       |
+| [`query-string`][10]                                           | Parse query strings                                                               |
+| [`time-span`][3]                                               | Simplified timers                                                                 |
 
 ## Usage
 
@@ -25,11 +25,12 @@ Use the flavor your prefer:
 
 ```javascript
 // Load everything and then use what you need
-import golgoth from 'golgoth';
+const golgoth = require('golgoth');
 golgoth.pify();
 
 // import only what you need
-import { pAll, pMap } from 'golgoth';
+const pAll = require('golgoth/lib/pAll');
+const _ = require('golgoth/lib/lodash');
 ```
 
 ## Additions
@@ -58,20 +59,6 @@ console.info(_.unflatten(flatData));
 // }
 ```
 
-## `spinner(max)`
-
-Creates a spinner for displaying progress of a task. Uses `ora` internally.
-
-```js
-const items = ['foo', 'bar', 'baz'];
-const spinner = golgoth.spinner(42);
-_.each(items, item => {
-  spinner.tick(item);
-});
-spinner.succeed('All items scanned');
-spinner.fail('Error while scanning items');
-```
-
 ## Notes
 
 `lodash` is available either as `lodash` or `_`.
@@ -86,3 +73,4 @@ spinner.fail('Error while scanning items');
 [8]: https://yarnpkg.com/en/package/p-map-series
 [9]: https://yarnpkg.com/en/package/pify
 [10]: https://yarnpkg.com/en/package/query-string
+[11]: https://github.com/sindresorhus/p-props
