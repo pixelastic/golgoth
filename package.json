@@ -2,7 +2,7 @@
   "author": "Pixelastic <tim@pixelastic.com>",
   "dependencies": {
     "chalk": "3.0.0",
-    "dayjs": "1.8.27",
+    "dayjs": "1.8.28",
     "esm": "3.2.25",
     "flat": "5.0.0",
     "got": "10.7.0",
