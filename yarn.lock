@@ -1483,7 +1483,7 @@ callsite@1.0.0:
   resolved "https://registry.npmjs.org/callsite/-/callsite-1.0.0.tgz#280398e5d664bd74038b6f0905153e6e8af1bc20"
   integrity sha1-KAOY5dZkvXQDi28JBRU+borxvCA=
 
-callsites@^3.0.0, callsites@^3.1.0:
+callsites@3.1.0, callsites@^3.0.0, callsites@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
@@ -2742,6 +2742,29 @@ firost@1.7.0:
   integrity sha512-FWjk+9I41+44ECLwrWt+mgNG4bSBqx0CExbXbEF6suaMNOb9rWTTZq4yOJSnIB7hnlPWoyBEOxFCSPkBEHnILw==
   dependencies:
     callsite "1.0.0"
+    chokidar "3.4.0"
+    clear-module "4.1.1"
+    eventemitter2 "6.4.2"
+    execa "4.0.2"
+    fs-extra "8.1.0"
+    globby "11.0.1"
+    golgoth "1.2.0"
+    inquirer "7.2.0"
+    is-glob "4.0.1"
+    json-stable-stringify "1.0.1"
+    nanoid "2.1.11"
+    ora "4.0.4"
+    shelljs "0.8.4"
+    tempy "0.5.0"
+    untildify "4.0.0"
+    which "2.0.2"
+
+firost@1.7.1:
+  version "1.7.1"
+  resolved "https://registry.npmjs.org/firost/-/firost-1.7.1.tgz#1762ac24f55063f5ee244e63274ded9dbd5ba557"
+  integrity sha512-uC0HjerfKiJkd2JpB5PtABrsnicjQ5DAdOOIkmKih6/gYExs/o9P6SVOt0COKLBcPaU/oZCQVYdE56CSYrFCkA==
+  dependencies:
+    callsites "3.1.0"
     chokidar "3.4.0"
     clear-module "4.1.1"
     eventemitter2 "6.4.2"
