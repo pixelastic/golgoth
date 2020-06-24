@@ -1,19 +1,19 @@
 {
   "author": "Pixelastic <tim@pixelastic.com>",
   "dependencies": {
-    "chalk": "3.0.0",
+    "chalk": "4.1.0",
     "dayjs": "1.8.28",
     "esm": "3.2.25",
     "flat": "5.0.0",
-    "got": "10.7.0",
+    "got": "11.3.0",
     "lodash": "4.17.15",
-    "p-all": "2.1.0",
-    "p-map": "3.0.0",
+    "p-all": "3.0.0",
+    "p-map": "4.0.0",
     "p-map-series": "2.1.0",
-    "p-props": "3.1.0",
+    "p-props": "4.0.0",
     "pify": "5.0.0",
     "query-string": "6.13.1",
-    "time-span": "3.1.0"
+    "time-span": "4.0.0"
   },
   "description": "Meta-package including all the libs I always need (lodash, pify, etc)",
   "devDependencies": {
