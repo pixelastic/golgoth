@@ -21,7 +21,8 @@
     "firost": "1.11.1"
   },
   "files": [
-    "lib/*.js"
+    "lib/*.js",
+    "lib/dayjs/**/*.js"
   ],
   "license": "MIT",
   "main": "lib/main.js",
