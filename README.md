@@ -59,6 +59,14 @@ console.info(_.unflatten(flatData));
 // }
 ```
 
+## Default modules for `dayjs`
+
+`dayjs` is loaded with the following plugins:
+
+- `utc`
+- `isSameOfBefore`
+- `isSameOrAfter`
+
 ## Notes
 
 `lodash` is available either as `lodash` or `_`.
