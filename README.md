@@ -12,6 +12,7 @@ for me, to install them all in one go.
 | -------------------------------------------------------------- | --------------------------------------------------------------------------------- |
 | [`chalk`][1]                                                   | Pretty colors in terminal output. Default colors updated to match my colorscheme. |
 | [`dayjs`][2]                                                   | Easy date parsing and comparing                                                   |
+| [`dedent`][12]                                                 | Easy multiline strings                                                            |
 | [`got`][4]                                                     | HTTP requests made easy                                                           |
 | [`lodash`][5]                                                  | JavaScript utility belt                                                           |
 | [`pAll`][6], [`pMap`][7], [`pProps`][11] and [`pMapSeries`][8] | Iterate over `async` methods                                                      |
@@ -82,3 +83,4 @@ console.info(_.unflatten(flatData));
 [9]: https://yarnpkg.com/en/package/pify
 [10]: https://yarnpkg.com/en/package/query-string
 [11]: https://github.com/sindresorhus/p-props
+[12]: https://github.com/dmnd/dedent
