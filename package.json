@@ -2,11 +2,11 @@
   "author": "Pixelastic <tim@pixelastic.com>",
   "dependencies": {
     "chalk": "4.1.0",
-    "dayjs": "1.8.34",
+    "dayjs": "1.8.35",
     "dedent": "0.7.0",
     "esm": "3.2.25",
     "flat": "5.0.2",
-    "got": "11.5.2",
+    "got": "11.6.0",
     "lodash": "4.17.20",
     "p-all": "3.0.0",
     "p-map": "4.0.0",
