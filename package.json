@@ -13,7 +13,7 @@
     "p-map-series": "2.1.0",
     "p-props": "4.0.0",
     "pify": "5.0.0",
-    "query-string": "6.13.3",
+    "query-string": "6.13.4",
     "time-span": "4.0.0"
   },
   "description": "Meta-package including all the libs I always need (lodash, pify, etc)",
