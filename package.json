@@ -19,7 +19,7 @@
   "description": "Meta-package including all the libs I always need (lodash, pify, etc)",
   "devDependencies": {
     "aberlaas": "1.13.3",
-    "firost": "1.12.0"
+    "firost": "2.0.6"
   },
   "files": [
     "lib/*.js",
