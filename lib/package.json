@@ -1,0 +1,36 @@
+{
+  "author": "Pixelastic <tim@pixelastic.com>",
+  "dependencies": {
+    "chalk": "4.1.0",
+    "dayjs": "1.9.6",
+    "dedent": "0.7.0",
+    "esm": "3.2.25",
+    "flat": "5.0.2",
+    "got": "11.8.0",
+    "lodash": "4.17.20",
+    "p-all": "3.0.0",
+    "p-map": "4.0.0",
+    "p-map-series": "2.1.0",
+    "p-props": "4.0.0",
+    "pify": "5.0.0",
+    "query-string": "6.13.7",
+    "time-span": "4.0.0"
+  },
+  "description": "Meta-package including all the libs I always need (lodash, pify, etc)",
+  "files": ["*.js", "dayjs/**/*.js"],
+  "homepage": "https://projects.pixelastic.com/golgoth/",
+  "license": "MIT",
+  "main": "main.js",
+  "name": "golgoth",
+  "repository": "pixelastic/golgoth",
+  "scripts": {
+    "ci": "../scripts/lib/ci",
+    "husky:precommit": "../scripts/lib/husky-precommit",
+    "lint": "../scripts/lib/lint",
+    "lint:fix": "../scripts/lib/lint-fix",
+    "release": "../scripts/lib/release",
+    "test": "../scripts/lib/test",
+    "test:watch": "../scripts/lib/test-watch"
+  },
+  "version": "1.5.0"
+}

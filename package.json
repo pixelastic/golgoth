@@ -1,42 +1,29 @@
 {
-  "author": "Pixelastic <tim@pixelastic.com>",
-  "dependencies": {
-    "chalk": "4.1.0",
-    "dayjs": "1.9.6",
-    "dedent": "0.7.0",
-    "esm": "3.2.25",
-    "flat": "5.0.2",
-    "got": "11.8.0",
-    "lodash": "4.17.20",
-    "p-all": "3.0.0",
-    "p-map": "4.0.0",
-    "p-map-series": "2.1.0",
-    "p-props": "4.0.0",
-    "pify": "5.0.0",
-    "query-string": "6.13.7",
-    "time-span": "4.0.0"
-  },
-  "description": "Meta-package including all the libs I always need (lodash, pify, etc)",
+  "description": "golgoth monorepo",
   "devDependencies": {
     "aberlaas": "1.13.3",
-    "firost": "1.12.0"
+    "lerna": "3.22.1"
   },
-  "files": [
-    "lib/*.js",
-    "lib/dayjs/**/*.js"
-  ],
-  "license": "MIT",
-  "main": "lib/main.js",
-  "name": "golgoth",
-  "repository": "git@github.com:pixelastic/golgoth.git",
+  "files": [],
+  "homepage": "https://projects.pixelastic.com/golgoth/",
+  "keywords": [],
+  "name": "golgoth-monorepo",
+  "private": true,
   "scripts": {
+    "build": "./scripts/docs/build",
+    "build:prod": "./scripts/docs/build-prod",
     "ci": "./scripts/ci",
+    "cms": "./scripts/docs/cms",
     "husky:precommit": "./scripts/husky-precommit",
     "lint": "./scripts/lint",
     "lint:fix": "./scripts/lint-fix",
     "release": "./scripts/release",
-    "test": "./scripts/test",
-    "test:watch": "./scripts/test-watch"
+    "serve": "./scripts/docs/serve",
+    "test": "./scripts/lib/test",
+    "test:watch": "./scripts/lib/test-watch"
   },
-  "version": "1.5.0"
+  "workspaces": [
+    "lib",
+    "docs"
+  ]
 }

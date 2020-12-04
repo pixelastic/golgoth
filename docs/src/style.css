@@ -1,0 +1,24 @@
+@import 'theme:style.css';
+
+body {
+  .theme-header {
+    @apply bg-gray-9;
+  }
+  .theme-navigation-link-active {
+    @apply border-orange-4;
+  }
+  .theme-navigation-link:hover {
+    @apply orange-5;
+  }
+  .theme-title {
+    @apply border-orange-5;
+  }
+
+  --docsearch-primary-color: #4299e1;
+}
+.prose a {
+  @apply orange-5;
+  &:hover {
+    @apply underline-orange-5;
+  }
+}
