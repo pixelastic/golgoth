@@ -17,7 +17,10 @@
     "time-span": "4.0.0"
   },
   "description": "Meta-package including all the libs I always need (lodash, pify, etc)",
-  "files": ["*.js", "dayjs/**/*.js"],
+  "files": [
+    "*.js",
+    "dayjs/**/*.js"
+  ],
   "homepage": "https://projects.pixelastic.com/golgoth/",
   "license": "MIT",
   "main": "main.js",
@@ -32,5 +35,5 @@
     "test": "../scripts/lib/test",
     "test:watch": "../scripts/lib/test-watch"
   },
-  "version": "1.5.0"
+  "version": "2.0.0"
 }
