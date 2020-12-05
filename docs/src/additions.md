@@ -2,11 +2,16 @@
 title: Additions
 ---
 
-Some additional methods or plugins are included by default.
+<div class="lead">
+  Some of the libraries packaged in golgoth offer additional configuration
+  options or optional plugins. This page documents what is included by default.
+</div>
 
-## `_.flatten()` and `_.unflatten()` for objects
+## Flattening objects in Lodash
 
-`_.flatten` flattens any nested object. `_.unflatten` reverts it.
+The default [flatten](https://lodash.com/docs/4.17.15#flatten) method of Lodash
+only flattens Arrays. Golgoth comes with a modified `flatten` method that also
+flattens Objects, and its reverse `unflatten`.
 
 ```js
 const data = {
@@ -28,13 +33,15 @@ console.info(_.unflatten(flatData));
 // }
 ```
 
-## Default modules for `dayjs`
+## Easier date comparison with Day.js
 
-`dayjs` is loaded with the following plugins:
+All dates handled by [Day.js](https://day.js.org/) are not in UTC by default
+which resulted in many lost hours wasted debugging local timezone issues. Since
+then, Golgoth includes the [utc][1] plugin so you can call `dayjs().utc()` instead of
+`dayjs()` to force UTC. 
 
-- [utc][1]
-- [isSameOrBefore][2]
-- [isSameOrAfter][3]
+It also includes the [isSameOrBefore][2] and [isSameOrAfter][3] for quick date
+comparison.
 
 [1]: https://day.js.org/docs/en/plugin/utc#docsNav
 [2]: https://day.js.org/docs/en/plugin/is-same-or-before#docsNav

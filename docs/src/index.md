@@ -1,10 +1,12 @@
 ---
-title: golgoth, a meta-package of most-used modules
+title: golgoth
 ---
 
-When building project in JavaScript, I often end up installing the same
-dependencies over and over again. `golgoth` is a meta-package that allow me to
-install them all in one go.
+<div class="lead">
+  When building project in JavaScript, I often end up installing the same
+  dependencies over and over again. Golgoth is a meta-package that allow me to
+  install them all in one go.
+</div>
 
 ## Libraries included
 
