@@ -1,78 +1,34 @@
 ---
-title: Ω Golgoth
+title: golgoth, a meta-package of most-used modules
 ---
 
-Meta-package including all the libs I always need (lodash, pify, etc)
-
 When building project in JavaScript, I often end up installing the same
-dependencies over and over again. This meta-package is a prototyping shortcut
-for me, to install them all in one go.
+dependencies over and over again. `golgoth` is a meta-package that allow me to
+install them all in one go.
 
 ## Libraries included
 
-| Name                                                           | Description                                                                       |
-| -------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| [`chalk`][1]                                                   | Pretty colors in terminal output. Default colors updated to match my colorscheme. |
-| [`dayjs`][2]                                                   | Easy date parsing and comparing                                                   |
-| [`dedent`][12]                                                 | Easy multiline strings                                                            |
-| [`got`][4]                                                     | HTTP requests made easy                                                           |
-| [`lodash`][5]                                                  | JavaScript utility belt                                                           |
-| [`pAll`][6], [`pMap`][7], [`pProps`][11] and [`pMapSeries`][8] | Iterate over `async` methods                                                      |
-| [`pify`][9]                                                    | Convert those pesky callbacks into Promises                                       |
-| [`query-string`][10]                                           | Parse query strings                                                               |
-| [`time-span`][3]                                               | Simplified timers                                                                 |
+| Library name       | Required  as          | Description                                                                            |
+| ------------------ | --------------------- | -------------------------------------------------------------------------------------- |
+| [chalk][1]         | `golgoth/chalk`       | Terminal string styling done right                                                     |
+| [dayjs][2]         | `golgoth/dayjs`       | 2KB immutable date time library alternative to Moment.js with the same modern API      |
+| [dedent][12]       | `golgoth/dedent`      | An ES6 string tag that strips indentation from multi-line strings                      |
+| [got][4]           | `golgoth/got`         | Human-friendly and powerful HTTP request library for Node.js                           |
+| [Lodash][5]        | `golgoth/_`           | A modern JavaScript utility library delivering modularity, performance & extras.       |
+| [p-all][6]         | `golgoth/pAll`        | Run promise-returning & async functions concurrently with optional limited concurrency |
+| [p-map-series][8]  | `golgoth/pMapSeries`  | Map over promises serially                                                             |
+| [p-map][7]         | `golgoth/pMap`        | Map over promises concurrently                                                         |
+| [p-props][11]      | `golgoth/pProps`      | Like Promise.all() but for Map and Object                                              |
+| [pify][9]          | `golgoth/pify`        | Promisify a callback-style function                                                    |
+| [query-string][10] | `golgoth/queryString` | Parse and stringify URL query strings                                                  |
+| [time-span][3]     | `golgoth/timeSpan`    | Simplified high resolution timing                                                      |
 
 ## Usage
 
-Use the flavor your prefer:
-
 ```javascript
-// Load everything and then use what you need
-const golgoth = require('golgoth');
-golgoth.pify();
-
-// import only what you need
-const pAll = require('golgoth/lib/pAll');
-const _ = require('golgoth/lib/lodash');
+const pMap = require('golgoth/pMap');
+const _ = require('golgoth/lodash');
 ```
-
-## Additions
-
-## `_.flatten()` and `_.unflatten()` for objects
-
-Takes any nested object and flatten its keys, or revert it
-
-```js
-const data = {
-  foo: {
-    bar: ['baz', 'quxx'],
-  },
-};
-const flatData = _.flatten(data);
-console.info(flatData);
-// {
-//   'foo.bar.0': 'baz',
-//   'foo.bar.1': 'quxx'
-// }
-console.info(_.unflatten(flatData));
-// {
-//  foo: {
-//    bar: ['baz', 'quxx']
-//  }
-// }
-```
-
-## Default modules for `dayjs`
-
-`dayjs` is loaded with the following plugins:
-
-- `utc`
-- `isSameOfBefore`
-- `isSameOrAfter`
-
-## Notes
-
-`lodash` is available either as `lodash` or `_`.
 
 [1]: https://yarnpkg.com/en/package/chalk
 [2]: https://yarnpkg.com/en/package/dayjs

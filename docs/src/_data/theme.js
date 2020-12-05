@@ -1,17 +1,17 @@
 module.exports = {
   navigation: [
     {
-      name: 'Overview',
+      name: 'Documentation',
       links: [
         {
-          title: 'Getting Started',
-          href: 'gettingStarted',
+          title: 'Additions',
+          href: 'additions',
+        },
+        {
+          title: 'Frequently Asked Questions',
+          href: 'faq',
         },
       ],
-    },
-    {
-      name: 'API',
-      links: ['init', 'read', 'write'],
     },
   ],
   docSearch: {
