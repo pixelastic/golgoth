@@ -1,5 +1,5 @@
 {
-  "description": "Meta-package including all the libs I always need (lodash, pify, etc)",
+  "description": "Meta-package of my most used modules.",
   "title": "golgoth",
   "twitter": "pixelastic",
   "productionUrl": "https://projects.pixelastic.com/golgoth/"

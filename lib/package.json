@@ -17,7 +17,7 @@
     "query-string": "6.13.7",
     "time-span": "4.0.0"
   },
-  "description": "Meta-package including all the libs I always need (lodash, pify, etc)",
+  "description": "Meta-package of my most used modules.",
   "files": [
     "*.js",
     "dayjs/**/*.js"
