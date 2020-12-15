@@ -14,8 +14,8 @@ module.exports = {
       ],
     },
   ],
-  // docSearch: {
-  //   apiKey: '068537f2f0092021a76033dfeef83f33',
-  //   indexName: 'pixelastic_firost',
-  // },
+  docSearch: {
+    apiKey: '5b5a662f04cb3ee676f01560493e1b08',
+    indexName: 'pixelastic_golgoth',
+  },
 };

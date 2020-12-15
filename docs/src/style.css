@@ -14,7 +14,7 @@ body {
     @apply border-orange-5;
   }
 
-  --docsearch-primary-color: #4299e1;
+  --docsearch-primary-color: #ed8936;
 }
 .prose a {
   @apply orange-5;
