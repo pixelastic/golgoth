@@ -5138,7 +5138,7 @@ cli-progress@^3.4.0:
     colors "^1.1.2"
     string-width "^4.2.0"
 
-cli-spinners@^2.0.0, cli-spinners@^2.4.0:
+cli-spinners@^2.0.0, cli-spinners@^2.4.0, cli-spinners@^2.5.0:
   version "2.5.0"
   resolved "https://registry.npmjs.org/cli-spinners/-/cli-spinners-2.5.0.tgz#12763e47251bf951cb75c201dfa58ff1bcb2d047"
   integrity sha512-PC+AmIuK04E6aeSs/pUccSujsTzBhu4HzC2dL+CfJB/Jcc2qTRbEwZQDfIUpt2Xl8BodYBEq8w4fc0kU2I9DjQ==
@@ -7705,10 +7705,10 @@ firost@2.2.0:
     untildify "4.0.0"
     which "2.0.2"
 
-firost@2.3.0:
-  version "2.3.0"
-  resolved "https://registry.npmjs.org/firost/-/firost-2.3.0.tgz#70db662c206e4d5732ed04c844d004581aa36694"
-  integrity sha512-HNzgVSvzFxy/Wj8Z84RaQxvMwj+u8gnMoq+UTF5fYrblcatHLDNhB3s/AzZbdP0d4ighqG/+oCvPA/+hWtammw==
+firost@2.4.0:
+  version "2.4.0"
+  resolved "https://registry.npmjs.org/firost/-/firost-2.4.0.tgz#d11af53e09d0ed2e41fa040cf1ee32b68b68c43f"
+  integrity sha512-pKTQoVRZoEKV8Ovy5gcB/Cvv+BFkUGnXTj0TsJ2kptGFOhPYz6uo+cXhTweeICKt/4w49sNskSLVs1YJ6vUR8g==
   dependencies:
     callsites "3.1.0"
     chokidar "3.4.3"
@@ -7724,7 +7724,7 @@ firost@2.3.0:
     json-stable-stringify "1.0.1"
     nanoid "3.1.20"
     normalize-url "5.3.0"
-    ora "5.1.0"
+    ora "5.2.0"
     std-mocks "1.0.1"
     strip-ansi "6.0.0"
     tempy "1.0.0"
@@ -12900,6 +12900,20 @@ ora@5.1.0:
     is-interactive "^1.0.0"
     log-symbols "^4.0.0"
     mute-stream "0.0.8"
+    strip-ansi "^6.0.0"
+    wcwidth "^1.0.1"
+
+ora@5.2.0:
+  version "5.2.0"
+  resolved "https://registry.npmjs.org/ora/-/ora-5.2.0.tgz#de10bfd2d15514384af45f3fa9d9b1aaf344fda1"
+  integrity sha512-+wG2v8TUU8EgzPHun1k/n45pXquQ9fHnbXVetl9rRgO6kjZszGGbraF3XPTIdgeA+s1lbRjSEftAnyT0w8ZMvQ==
+  dependencies:
+    bl "^4.0.3"
+    chalk "^4.1.0"
+    cli-cursor "^3.1.0"
+    cli-spinners "^2.5.0"
+    is-interactive "^1.0.0"
+    log-symbols "^4.0.0"
     strip-ansi "^6.0.0"
     wcwidth "^1.0.1"
 
