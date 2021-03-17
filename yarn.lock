@@ -12633,16 +12633,16 @@ norska-data@^1.12.0:
     golgoth "2.0.0"
     norska-config "^1.11.0"
 
-norska-frontend@^1.14.0:
-  version "1.14.0"
-  resolved "https://registry.npmjs.org/norska-frontend/-/norska-frontend-1.14.0.tgz#0d2181d934f080dfd99ee1861cb0fbef66b27aa3"
-  integrity sha512-82Rnk+WZFPtsIIeAvwEXZPo0yTAVSSS74o3RkgLI70di+lsD5OFomgWms+NndyytpF7QW2ivdknlhP6C5PL9aA==
+norska-frontend@^1.15.0:
+  version "1.15.0"
+  resolved "https://registry.npmjs.org/norska-frontend/-/norska-frontend-1.15.0.tgz#d1faba3eb1b5e59b068b60da959520a1d26f659a"
+  integrity sha512-ma5Rcz76XW+00UpeZvr6hvD+JU3GwhTNSKawtOI5VaIWdoEq2H7xFYR+qVhj1NfWmPcVFQ2hGm3BC4L/GMJ18Q==
   dependencies:
     algoliasearch "4.8.3"
     instantsearch.js "4.9.2"
     lazysizes "5.2.2"
     lodash-es "4.17.15"
-    norska-image-proxy "^1.5.2"
+    norska-image-proxy "^1.15.0"
 
 norska-helper@^1.9.0:
   version "1.9.0"
@@ -12652,10 +12652,10 @@ norska-helper@^1.9.0:
     firost "2.6.1"
     golgoth "2.0.0"
 
-norska-html@^1.14.0:
-  version "1.14.0"
-  resolved "https://registry.npmjs.org/norska-html/-/norska-html-1.14.0.tgz#eb5c64422f54524f1d8f6312e944bab87b348063"
-  integrity sha512-MBlakGfb19L2xEj3oXv9lnYQH7kb7vlUYiTxIdOn7vH6njm5Aro4PQmYXBhsmxzV3HlkZ1irDrHHySpLGmubaw==
+norska-html@^1.15.0:
+  version "1.15.0"
+  resolved "https://registry.npmjs.org/norska-html/-/norska-html-1.15.0.tgz#30dc6efabb5d9f1873c39edb6c993d0b4bd1e628"
+  integrity sha512-9i0VeD5WJTZHAjM1kx5DEvCsm0kxLgmVdo6bLEp7/z/UkYa4PVIqapSitVhzumQrKTWLRYsW61qnZLkJCI1n3Q==
   dependencies:
     ensure-url-trailing-slash "0.1.4"
     firost "2.6.1"
@@ -12669,16 +12669,16 @@ norska-html@^1.14.0:
     markdown-it-highlightjs "3.4.0"
     norska-config "^1.11.0"
     norska-data "^1.12.0"
-    norska-frontend "^1.14.0"
+    norska-frontend "^1.15.0"
     norska-helper "^1.9.0"
-    norska-image-proxy "^1.5.2"
+    norska-image-proxy "^1.15.0"
     pug "3.0.0"
     slug "4.0.2"
 
-norska-image-proxy@^1.5.2:
-  version "1.5.2"
-  resolved "https://registry.npmjs.org/norska-image-proxy/-/norska-image-proxy-1.5.2.tgz#d981d9b748980ab055b6bbc996cc2f6dd8e425a4"
-  integrity sha512-kQdXrpTgOObZdnPXtPUxA6PK4IjdZtJ/Qs/ubI0GZUwNqAgSIJS8Dm0eXO607QJxK2aZeq6kLkBoFxaaXUWvcw==
+norska-image-proxy@^1.15.0:
+  version "1.15.0"
+  resolved "https://registry.npmjs.org/norska-image-proxy/-/norska-image-proxy-1.15.0.tgz#7297c634367b63b8172ff836dc7bc30559b17a41"
+  integrity sha512-9VHydaQW0cbADA/DWopBfNwjqlNutEri7mDlEI9HWy6GacW8C23/H+ILtjQIzLvVVkx9uQCO08xU9ds8fKpqPg==
 
 norska-init@^1.11.0:
   version "1.11.0"
@@ -12739,10 +12739,10 @@ norska-theme-docs@2.1.0:
     firost "2.7.0"
     parse-github-repo-url "1.4.1"
 
-norska@1.14.0:
-  version "1.14.0"
-  resolved "https://registry.npmjs.org/norska/-/norska-1.14.0.tgz#0f82664353c513629c588f6395eab8dcf14dfa3c"
-  integrity sha512-kIixL2sDle+rpdtpONrOJrWIHvOmmPpwu+eCCDcEKZfa2bmST8iDerLHKPee1F6D6IvBVqXmOAS3vTrgqj5FkQ==
+norska@1.15.0:
+  version "1.15.0"
+  resolved "https://registry.npmjs.org/norska/-/norska-1.15.0.tgz#699c64b341ed2c3501f8cb1c8a86fe2fa9a55186"
+  integrity sha512-UtLPkEKg7nQWDjceF/JQ9xJehrOUSkyQ6QI6iFr6ISCmnXBxI3dg1RKDvMFP1joCIRpPZzX2CbG4T37HZNNz2w==
   dependencies:
     firost "2.6.1"
     golgoth "2.0.0"
@@ -12752,10 +12752,10 @@ norska@1.14.0:
     norska-cms "^1.13.0"
     norska-config "^1.11.0"
     norska-css "^1.13.0"
-    norska-frontend "^1.14.0"
+    norska-frontend "^1.15.0"
     norska-helper "^1.9.0"
-    norska-html "^1.14.0"
-    norska-image-proxy "^1.5.2"
+    norska-html "^1.15.0"
+    norska-image-proxy "^1.15.0"
     norska-init "^1.11.0"
     norska-js "^1.11.0"
     norska-netlify "^1.11.0"
