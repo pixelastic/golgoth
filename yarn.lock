@@ -12849,15 +12849,15 @@ norska-image-proxy@^2.3.4:
   resolved "https://registry.npmjs.org/norska-image-proxy/-/norska-image-proxy-2.3.4.tgz#95ea80b123ed8c7a5061def9e6f1544b82791679"
   integrity sha512-K2zc5CiEzT8sE+mJC5cD219/Z+VBh2r5PhWMjDpjAZVMJ9fW/P4YKD/9gObGqbGef5C6T538ge8dD224y50a0A==
 
-norska-init@^2.3.5:
-  version "2.3.5"
-  resolved "https://registry.npmjs.org/norska-init/-/norska-init-2.3.5.tgz#8a1d703c272038308cd4293b3cab15815c2d19ea"
-  integrity sha512-wme7yl+1DXSV0ZI7e2VXnP5WhyS86BChKxJdnNonJnnpEhudPg5uVgNtvnfbxzoVNfRIOhMJAzGiik7BSHDwRA==
+norska-init@^2.3.6:
+  version "2.3.6"
+  resolved "https://registry.npmjs.org/norska-init/-/norska-init-2.3.6.tgz#d52b8f057f5ec5a3da18c42bedcd3789a2111002"
+  integrity sha512-1yH/SU5PNXrDYNFHyZ4BGQ0wCOTymt4lieX43JyZRmUs8fLMV3VzLkNGMrKl4KMfNAW1xi1gvT1NpBUlKIs00w==
   dependencies:
     firost "2.13.1"
     golgoth "2.0.0"
     norska-config "^2.3.4"
-    norska-netlify "^2.3.5"
+    norska-netlify "^2.3.6"
 
 norska-js@^2.3.4:
   version "2.3.4"
@@ -12871,10 +12871,10 @@ norska-js@^2.3.4:
     pug-loader "^2.4.0"
     webpack "4.46.0"
 
-norska-netlify@^2.3.5:
-  version "2.3.5"
-  resolved "https://registry.npmjs.org/norska-netlify/-/norska-netlify-2.3.5.tgz#59d1f25dea3b0829cdde5d0834092b990d10bd54"
-  integrity sha512-RdntqN4x+VH1G8bcprkNRv+YhKN+omqHP6/k4+mzs8LAXqkRyHjaC10wkJwnP9Jbwe54rnWmvcIiABOIFQuHlA==
+norska-netlify@^2.3.6:
+  version "2.3.6"
+  resolved "https://registry.npmjs.org/norska-netlify/-/norska-netlify-2.3.6.tgz#4c011f2f99d262107a1c5c897ba61acadc941c79"
+  integrity sha512-AXTz2++XapfqQpAUlU1BpN/EEPlGr8/rIXZu9/4iZtLUrHPaMPtxZrYHpFGT3bYTou8CRn/34W6NdHa0D7I0TA==
   dependencies:
     firost "2.13.1"
     golgoth "2.0.0"
@@ -12925,10 +12925,10 @@ norska-theme-docs@4.0.0:
     firost "2.13.0"
     parse-github-repo-url "1.4.1"
 
-norska@2.3.5:
-  version "2.3.5"
-  resolved "https://registry.npmjs.org/norska/-/norska-2.3.5.tgz#c184a6ebd1fdd34b8e5b483f1bf24bf41ed83df0"
-  integrity sha512-6z2oVVSPL6EnfoLfxJmKIPEp/11D1KLJqk0WPrgcvB+7UD4T4g0KlJgEpJwBaj8umlpPld0S+k6lAo3wKNJO3w==
+norska@2.3.6:
+  version "2.3.6"
+  resolved "https://registry.npmjs.org/norska/-/norska-2.3.6.tgz#c30c4b654e469e32552d799f86734ef2ffaee541"
+  integrity sha512-VrD3aA6As2gYSwo3t6mERlkNwCFX8kXKda04ra+DZZTXgO8ulbZJ6/XhBQh2QIhNDzGreJxnjzKDlyZFqZpFbA==
   dependencies:
     firost "2.13.1"
     golgoth "2.0.0"
@@ -12941,9 +12941,9 @@ norska@2.3.5:
     norska-helper "^2.3.4"
     norska-html "^2.3.5"
     norska-image-proxy "^2.3.4"
-    norska-init "^2.3.5"
+    norska-init "^2.3.6"
     norska-js "^2.3.4"
-    norska-netlify "^2.3.5"
+    norska-netlify "^2.3.6"
     norska-revv "^2.3.4"
     norska-serve "^2.3.5"
 
