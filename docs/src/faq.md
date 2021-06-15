@@ -3,7 +3,7 @@ title: Frequently Asked Questions
 ---
 
 <div class="lead">
-  Golgoth is a weird module in that it doesn't add any additional feature expect
+  Golgoth is a weird module in that it doesn't add any additional feature except
   what's available in the modules it packages. So it's fair to wonder "what's
   the point?". This page should answer those questions.
 </div>
