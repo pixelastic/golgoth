@@ -1,12 +1,21 @@
 module.exports = {
   navigation: [
     {
-      name: 'Documentation',
+      name: 'Add-ons',
       links: [
         {
-          title: 'Additions',
-          href: 'additions',
+          title: 'Lodash',
+          href: 'lodash',
         },
+        {
+          title: 'Day.js',
+          href: 'dayjs',
+        },
+      ],
+    },
+    {
+      name: 'Documentation',
+      links: [
         {
           title: 'Frequently Asked Questions',
           href: 'faq',
