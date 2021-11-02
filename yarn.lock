@@ -4115,6 +4115,14 @@ aggregate-error@^3.0.0:
     clean-stack "^2.0.0"
     indent-string "^4.0.0"
 
+aggregate-error@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/aggregate-error/-/aggregate-error-4.0.0.tgz#83dbdb53a0d500721281d22e19eee9bc352a89cd"
+  integrity sha512-8DGp7zUt1E9k0NE2q4jlXHk+V3ORErmwolEdRz9iV+LKJ40WhMHh92cxAvhqV2I+zEn/gotIoqoMs0NjF3xofg==
+  dependencies:
+    clean-stack "^4.0.0"
+    indent-string "^5.0.0"
+
 ajv-errors@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/ajv-errors/-/ajv-errors-1.0.1.tgz#f35986aceb91afadec4102fbd85014950cefa64d"
@@ -5588,6 +5596,13 @@ clean-stack@^3.0.0, clean-stack@^3.0.1:
   dependencies:
     escape-string-regexp "4.0.0"
 
+clean-stack@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.npmjs.org/clean-stack/-/clean-stack-4.1.0.tgz#5ce5a2fd19a12aecdce8570daefddb7ac94b6b4e"
+  integrity sha512-dxXQYI7mfQVcaF12s6sjNFoZ6ZPDQuBBLp3QJ5156k9EvUFClUoZ11fo8HnLQO241DDVntHEug8MOuFO5PSfRg==
+  dependencies:
+    escape-string-regexp "5.0.0"
+
 clear-module@4.1.1:
   version "4.1.1"
   resolved "https://registry.npmjs.org/clear-module/-/clear-module-4.1.1.tgz#bf8ba3b62eb70ee1e0adec90589741425cf32db8"
@@ -6158,6 +6173,11 @@ convert-hrtime@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/convert-hrtime/-/convert-hrtime-3.0.0.tgz#62c7593f5809ca10be8da858a6d2f702bcda00aa"
   integrity sha512-7V+KqSvMiHp8yWDuwfww06XleMWVVB9b9tURBx+G7UTADuo5hYPuowKloz4OzOqbPezxgo+fdQ1522WzPG4OeA==
+
+convert-hrtime@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmjs.org/convert-hrtime/-/convert-hrtime-5.0.0.tgz#f2131236d4598b95de856926a67100a0a97e9fa3"
+  integrity sha512-lOETlkIeYSJWcbbcvjRKGxVMXJR+8+OQb/mTPbA4ObPMytYIsUbuOE0Jzy60hjARYszq1id0j8KgVhC+WGZVTg==
 
 convert-source-map@^1.4.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.7.0"
@@ -7397,6 +7417,11 @@ escape-string-regexp@4.0.0, escape-string-regexp@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
+
+escape-string-regexp@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-5.0.0.tgz#4683126b500b61762f2dbebace1806e8be31b1c8"
+  integrity sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==
 
 escape-string-regexp@^1.0.0, escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
@@ -9590,6 +9615,11 @@ indent-string@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/indent-string/-/indent-string-4.0.0.tgz#624f8f4497d619b2d9768531d58f4122854d7251"
   integrity sha512-EdDDZu4A2OyIK7Lr/2zG+w5jmbuk1DVBnEwREQvBzspBJkCEbRa8GxU1lghYcaGJCnRWibjDXlq779X1/y5xwg==
+
+indent-string@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmjs.org/indent-string/-/indent-string-5.0.0.tgz#4fd2980fccaf8622d14c64d694f4cf33c81951a5"
+  integrity sha512-m6FAo/spmsW2Ab2fU35JTYwtOKa2yAwXSwgjSv1TJzh4Mh7mC3lzAOVLBprb72XsTrgkEIsl7YrFNAiDiRhIGg==
 
 indexes-of@^1.0.1:
   version "1.0.1"
@@ -13786,6 +13816,13 @@ p-all@3.0.0:
   dependencies:
     p-map "^4.0.0"
 
+p-all@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/p-all/-/p-all-4.0.0.tgz#fd0d57391727646da85cfe9595b9215617982c19"
+  integrity sha512-QXqMc8PpYu0gmNM6VcKP0uYqeI+dtvSNeaDb8ktnNjposr+nftHHCSYbj/S/oUceF6R868jw1XOxkJKUSiHgEQ==
+  dependencies:
+    p-map "^5.0.0"
+
 p-all@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/p-all/-/p-all-2.1.0.tgz#91419be56b7dee8fe4c5db875d55e0da084244a0"
@@ -13917,12 +13954,24 @@ p-map-series@2.1.0, p-map-series@^2.1.0:
   resolved "https://registry.yarnpkg.com/p-map-series/-/p-map-series-2.1.0.tgz#7560d4c452d9da0c07e692fdbfe6e2c81a2a91f2"
   integrity sha512-RpYIIK1zXSNEOdwxcfe7FdvGcs7+y5n8rifMhMNWvaxRNMPINJHF5GDeuVxWqnfrcHPSCnp7Oo5yNXHId9Av2Q==
 
+p-map-series@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/p-map-series/-/p-map-series-3.0.0.tgz#6a07efcdf8b44c8f1ce38ec0a98807dc4ada34a6"
+  integrity sha512-/oSZlzK3Chrlrx+LFkiuMzWi2k2aEfIP8V5LandUN3/XRhUlxM1R0Th/xM6SKgjTXnIbZR9GkexTLiar2nKUeg==
+
 p-map@4.0.0, p-map@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/p-map/-/p-map-4.0.0.tgz#bb2f95a5eda2ec168ec9274e06a747c3e2904d2b"
   integrity sha512-/bjOqmgETBYB5BoEeGVea8dmvHb2m9GLy1E9W43yeyfP6QQCZGFNa+XRceJEuDB6zqr+gKpIAmlLebMpykw/MQ==
   dependencies:
     aggregate-error "^3.0.0"
+
+p-map@5.3.0, p-map@^5.0.0:
+  version "5.3.0"
+  resolved "https://registry.npmjs.org/p-map/-/p-map-5.3.0.tgz#2204823bc9f37f17ddc9e7f446293c4530b8a4cf"
+  integrity sha512-SRbIQFoLYNezHkqZslqeg963HYUtqOrfMCxjNrFOpJ19WTYuq26rQoOXeX8QQiMLUlLqdYV/7PuDsdYJ7hLE1w==
+  dependencies:
+    aggregate-error "^4.0.0"
 
 p-map@^2.0.0:
   version "2.1.0"
@@ -13955,6 +14004,13 @@ p-props@4.0.0:
   integrity sha512-3iKFbPdoPG7Ne3cMA53JnjPsTMaIzE9gxKZnvKJJivTAeqLEZPBu6zfi6DYq9AsH1nYycWmo3sWCNI8Kz6T2Zg==
   dependencies:
     p-map "^4.0.0"
+
+p-props@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmjs.org/p-props/-/p-props-5.0.0.tgz#3ad30640e1e77e45a2e2458e6af13897c40f5982"
+  integrity sha512-teg4j2sNFp+tHIswvsDj7T2SpUQyFLaC80svJbZNxFuFLvOx88n/7k6Oakbx/yKcjRPbdOSd71AsglFf63g2Ag==
+  dependencies:
+    p-map "^5.0.0"
 
 p-queue@^6.6.2:
   version "6.6.2"
@@ -17384,6 +17440,13 @@ time-span@4.0.0:
   integrity sha512-MyqZCTGLDZ77u4k+jqg4UlrzPTPZ49NDlaekU6uuFaJLzPIN1woaRXCbGeqOfxwc3Y37ZROGAJ614Rdv7Olt+g==
   dependencies:
     convert-hrtime "^3.0.0"
+
+time-span@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmjs.org/time-span/-/time-span-5.0.0.tgz#35bf9d75a11ea0f19fbe8282162a55439f58aa8b"
+  integrity sha512-6x1S1sA6AFbXCa2IUkZNJr6vJ6oVuK+m4YZXQs4Rf8256EQIQg6JSS/hSrs3k15GRDGV3vrWgmav5qHIytTyKQ==
+  dependencies:
+    convert-hrtime "^5.0.0"
 
 time-zone@^1.0.0:
   version "1.0.0"
