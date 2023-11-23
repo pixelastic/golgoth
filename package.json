@@ -1,7 +1,7 @@
 {
   "description": "golgoth monorepo",
   "devDependencies": {
-    "aberlaas": "1.25.1",
+    "aberlaas": "2.0.0",
     "lerna": "4.0.0"
   },
   "files": [],
@@ -27,6 +27,6 @@
     "docs"
   ],
   "engines": {
-    "node": ">=14.17.0"
+    "node": ">=18"
   }
 }
