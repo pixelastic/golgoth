@@ -23,9 +23,24 @@
     "*.js",
     "dayjs/**/*.js"
   ],
+  "exports": {
+    ".": "./main.js",
+    "./chalk.js": "./chalk.js",
+    "./dayjs.js": "./dayjs.js",
+    "./dedent.js": "./dedent.js",
+    "./got.js": "./got.js",
+    "./lodash.js": "./lodash.js",
+    "./pAll.js": "./pAll.js",
+    "./pMapSeries.js": "./pMapSeries.js",
+    "./pMap.js": "./pMap.js",
+    "./pProps.js": "./pProps.js",
+    "./pify.js": "./pify.js",
+    "./queryString.js": "./queryString.js",
+    "./timeSpan.js": "./timeSpan.js",
+    "./_.js": "./lodash.js"
+  },
   "homepage": "https://projects.pixelastic.com/golgoth/",
   "license": "MIT",
-  "exports": "./main.js",
   "name": "golgoth",
   "repository": "pixelastic/golgoth",
   "scripts": {
