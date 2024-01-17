@@ -1,4 +1,4 @@
-# Hidden files (.babelrc.js, .huskyrc.js, etc) are ignored by default by ESLint
+# Hidden configuration files are ignored by default by ESLint
 # The following line will unignore them
 !.*
 
