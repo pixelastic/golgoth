@@ -16,12 +16,13 @@
     "ci": "./scripts/ci",
     "cms": "./scripts/docs/cms",
     "lint": "./scripts/lint",
-    "g:lint": "./scripts/lint",
-    "lint:fix": "./scripts/lint-fix",
+    "lint:fix": "./scripts/lint --fix",
     "release": "./scripts/release",
     "serve": "./scripts/docs/serve",
-    "test": "./scripts/lib/test",
-    "test:watch": "./scripts/lib/test-watch"
+    "test": "./scripts/test",
+    "test:watch": "./scripts/test --watch",
+    "g:lint": "./scripts/lint",
+    "g:test": "./scripts/test"
   },
   "workspaces": [
     "lib",

@@ -44,13 +44,12 @@
   "name": "golgoth",
   "repository": "pixelastic/golgoth",
   "scripts": {
+    "lint": "yarn g:lint",
+    "lint:fix": "yarn g:lint --fix",
+    "test": "yarn g:test",
+    "test:watch": "yarn g:test --watch",
     "ci": "../scripts/lib/ci",
-    "husky:precommit": "../scripts/lib/husky-precommit",
-    "lint": "../scripts/lib/lint",
-    "lint:fix": "../scripts/lib/lint-fix",
-    "release": "../scripts/lib/release",
-    "test": "../scripts/lib/test",
-    "test:watch": "../scripts/lib/test-watch"
+    "release": "../scripts/lib/release"
   },
   "version": "2.1.0",
   "engines": {
