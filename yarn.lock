@@ -7635,6 +7635,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dayjs@npm:1.10.6":
+  version: 1.10.6
+  resolution: "dayjs@npm:1.10.6"
+  checksum: 97d6b68edda28995f7ab98298635057f5e610408294b492d47f197903db5cca99a5d8974d38b93dd4457bb25bcceb044aacda5507dfbe1e3408fa359b09589d9
+  languageName: node
+  linkType: hard
+
 "dayjs@npm:1.11.10":
   version: 1.11.10
   resolution: "dayjs@npm:1.11.10"
@@ -10887,15 +10894,37 @@ __metadata:
   languageName: node
   linkType: hard
 
-"golgoth@npm:2.1.0, golgoth@workspace:lib":
+"golgoth@npm:2.1.0":
+  version: 2.1.0
+  resolution: "golgoth@npm:2.1.0"
+  dependencies:
+    chalk: "npm:4.1.2"
+    dayjs: "npm:1.10.6"
+    dedent: "npm:0.7.0"
+    esm: "npm:3.2.25"
+    firost: "npm:2.16.2"
+    flat: "npm:5.0.2"
+    got: "npm:11.8.2"
+    lodash: "npm:4.17.21"
+    p-all: "npm:3.0.0"
+    p-map: "npm:4.0.0"
+    p-map-series: "npm:2.1.0"
+    p-props: "npm:4.0.0"
+    pify: "npm:5.0.0"
+    query-string: "npm:7.0.1"
+    time-span: "npm:4.0.0"
+  checksum: 625a654355e884f703dd4ae7a7ba3459619b784b29d4e939ed1ba0c405c4ae82f4833bfcccab07cb867a47b4865067f8abccf672442e6f1a17ff3473febfa52b
+  languageName: node
+  linkType: hard
+
+"golgoth@workspace:lib":
   version: 0.0.0-use.local
   resolution: "golgoth@workspace:lib"
   dependencies:
     chalk: "npm:4.1.2"
     dayjs: "npm:1.11.10"
     dedent: "npm:0.7.0"
-    esm: "npm:3.2.25"
-    firost: "npm:2.17.0"
+    firost: "npm:3.1.0"
     flat: "npm:5.0.2"
     got: "npm:11.8.6"
     lodash: "npm:4.17.21"
@@ -10945,6 +10974,25 @@ __metadata:
     p-cancelable: "npm:^2.0.0"
     responselike: "npm:^2.0.0"
   checksum: 1e71c1c6b7b9e3f5a8337f8ddeb7112d911b253229243c56ffe36bdfa9149f9e0988dac553cba9e0b6007a9c45cb0cea51dda1f2168dc459f2a166dad6c5097d
+  languageName: node
+  linkType: hard
+
+"got@npm:11.8.2":
+  version: 11.8.2
+  resolution: "got@npm:11.8.2"
+  dependencies:
+    "@sindresorhus/is": "npm:^4.0.0"
+    "@szmarczak/http-timer": "npm:^4.0.5"
+    "@types/cacheable-request": "npm:^6.0.1"
+    "@types/responselike": "npm:^1.0.0"
+    cacheable-lookup: "npm:^5.0.3"
+    cacheable-request: "npm:^7.0.1"
+    decompress-response: "npm:^6.0.0"
+    http2-wrapper: "npm:^1.0.0-beta.5.2"
+    lowercase-keys: "npm:^2.0.0"
+    p-cancelable: "npm:^2.0.0"
+    responselike: "npm:^2.0.0"
+  checksum: 12fc2f5ffeed74746b75764c304f9dcd679edb593a9d079e8235ca3a2a112ab500702a81f693573a389c198c678f9b0e827921a20cdb29c90dc8897a37432419
   languageName: node
   linkType: hard
 
@@ -17949,6 +17997,18 @@ __metadata:
     split-on-first: "npm:^1.0.0"
     strict-uri-encode: "npm:^2.0.0"
   checksum: 48157f9b9770f24364effe67ad8433a51689c6f8a3a252de04c1d66cac05f20e8824966143be38b3f97ab1a737c16ccc940ed285df950de3244e57a90a1aa752
+  languageName: node
+  linkType: hard
+
+"query-string@npm:7.0.1":
+  version: 7.0.1
+  resolution: "query-string@npm:7.0.1"
+  dependencies:
+    decode-uri-component: "npm:^0.2.0"
+    filter-obj: "npm:^1.1.0"
+    split-on-first: "npm:^1.0.0"
+    strict-uri-encode: "npm:^2.0.0"
+  checksum: 6690863eacf4f9dd0f1907d842ead9470b1c2b90583a9936f185616bb97cfa48127e01a154e32bdaeb14b8488c30defcde7936c41a55fb56f98d09d98f19da91
   languageName: node
   linkType: hard
 

@@ -5,8 +5,6 @@
     "chalk": "4.1.2",
     "dayjs": "1.11.10",
     "dedent": "0.7.0",
-    "esm": "3.2.25",
-    "firost": "2.17.0",
     "flat": "5.0.2",
     "got": "11.8.6",
     "lodash": "4.17.21",
@@ -18,26 +16,15 @@
     "query-string": "7.1.3",
     "time-span": "4.0.0"
   },
+  "devDependencies": {
+    "firost": "3.1.0"
+  },
   "description": "Meta-package of my most used modules.",
   "files": [
-    "*.js",
-    "dayjs/**/*.js"
+    "*.js"
   ],
   "exports": {
-    ".": "./main.js",
-    "./chalk.js": "./chalk.js",
-    "./dayjs.js": "./dayjs.js",
-    "./dedent.js": "./dedent.js",
-    "./got.js": "./got.js",
-    "./lodash.js": "./lodash.js",
-    "./pAll.js": "./pAll.js",
-    "./pMapSeries.js": "./pMapSeries.js",
-    "./pMap.js": "./pMap.js",
-    "./pProps.js": "./pProps.js",
-    "./pify.js": "./pify.js",
-    "./queryString.js": "./queryString.js",
-    "./timeSpan.js": "./timeSpan.js",
-    "./_.js": "./lodash.js"
+    ".": "./main.js"
   },
   "homepage": "https://projects.pixelastic.com/golgoth/",
   "license": "MIT",
