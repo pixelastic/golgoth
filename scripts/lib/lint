@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
 set -e
-cd "$(dirname "$0")/../../lib"
-
-aberlaas lint "$@"
+yarn run g:lint "$@"
