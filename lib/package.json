@@ -38,7 +38,7 @@
     "ci": "../scripts/lib/ci",
     "release": "../scripts/lib/release"
   },
-  "version": "2.1.0",
+  "version": "2.2.0",
   "engines": {
     "node": ">=18"
   }
