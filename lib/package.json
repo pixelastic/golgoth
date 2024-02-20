@@ -32,11 +32,11 @@
   "repository": "pixelastic/golgoth",
   "scripts": {
     "lint": "yarn g:lint",
-    "lint:fix": "yarn g:lint --fix",
+    "lint:fix": "yarn g:lint:fix",
     "test": "yarn g:test",
-    "test:watch": "yarn g:test --watch",
-    "ci": "../scripts/lib/ci",
-    "release": "../scripts/lib/release"
+    "test:watch": "yarn g:test:watch",
+    "ci": "yarn g:ci",
+    "release": "yarn g:release"
   },
   "version": "2.3.0",
   "engines": {

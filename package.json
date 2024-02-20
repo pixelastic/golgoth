@@ -22,7 +22,11 @@
     "test": "./scripts/test",
     "test:watch": "./scripts/test --watch",
     "g:lint": "./scripts/lint",
-    "g:test": "./scripts/test"
+    "g:lint:fix": "./scripts/lint --fix",
+    "g:test": "./scripts/test",
+    "g:test:watch": "./scripts/test --watch",
+    "g:ci": "./scripts/ci",
+    "g:release": "./scripts/release"
   },
   "workspaces": [
     "lib",
