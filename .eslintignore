@@ -7,3 +7,6 @@ node_modules/
 
 # .yarn contains the yarn source code, we don't need to lint it
 .yarn/
+
+# Ignore the documentation for now, I haven't migrated it to ESM yet
+docs/
