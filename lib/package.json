@@ -26,6 +26,7 @@
   "exports": {
     ".": "./main.js"
   },
+  "main": "./main.js",
   "homepage": "https://projects.pixelastic.com/golgoth/",
   "license": "MIT",
   "name": "golgoth",
