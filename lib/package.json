@@ -32,12 +32,16 @@
   "name": "golgoth",
   "repository": "pixelastic/golgoth",
   "scripts": {
-    "lint": "yarn g:lint",
-    "lint:fix": "yarn g:lint:fix",
+    "build": "yarn g:build",
+    "build:prod": "yarn g:build:prod",
+    "cms": "yarn g:cms",
+    "serve": "yarn g:serve",
+    "release": "yarn g:release",
     "test": "yarn g:test",
     "test:watch": "yarn g:test:watch",
-    "ci": "yarn g:ci",
-    "release": "yarn g:release"
+    "compress": "yarn g:compress",
+    "lint": "yarn g:lint",
+    "lint:fix": "yarn g:lint:fix"
   },
   "version": "2.3.0",
   "engines": {

@@ -9,12 +9,16 @@
   "name": "golgoth-docs",
   "private": true,
   "scripts": {
-    "build": "../scripts/docs/build",
-    "build:prod": "../scripts/docs/build-prod",
-    "cms": "../scripts/docs/cms",
-    "lint": "../scripts/docs/lint",
-    "lint:fix": "../scripts/docs/lint-fix",
-    "serve": "../scripts/docs/serve"
+    "build": "yarn g:build",
+    "build:prod": "yarn g:build:prod",
+    "cms": "yarn g:cms",
+    "serve": "yarn g:serve",
+    "release": "yarn g:release",
+    "test": "yarn g:test",
+    "test:watch": "yarn g:test:watch",
+    "compress": "yarn g:compress",
+    "lint": "yarn g:lint",
+    "lint:fix": "yarn g:lint:fix"
   },
   "version": "2.2.0"
 }
