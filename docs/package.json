@@ -20,5 +20,5 @@
     "lint": "yarn g:lint",
     "lint:fix": "yarn g:lint:fix"
   },
-  "version": "2.2.0"
+  "version": "2.4.0"
 }

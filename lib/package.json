@@ -43,7 +43,7 @@
     "lint": "yarn g:lint",
     "lint:fix": "yarn g:lint:fix"
   },
-  "version": "2.3.0",
+  "version": "2.4.0",
   "engines": {
     "node": ">=18"
   }
