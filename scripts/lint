@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
+# If no arguments passed, we pass the path to the current workspace
 input=("$@")
 [[ ${#input[@]} == 0 ]] && input=("$INIT_CWD")
 
