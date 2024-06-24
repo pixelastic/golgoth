@@ -2,7 +2,7 @@
   "description": "golgoth monorepo",
   "devDependencies": {
     "aberlaas": "1.25.1",
-    "lerna": "4.0.0"
+    "lerna": "8.1.5"
   },
   "files": [],
   "homepage": "https://projects.pixelastic.com/golgoth/",
