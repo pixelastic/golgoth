@@ -7,8 +7,16 @@ aliases:
   - &restore_cache
     restore_cache:
       key: yarn-cache-{{ checksum "yarn.lock" }}
-  - &yarn_install
-    run: 'yarn install'
+  - &install_yarn
+    run:
+      name: 'Installing correct yarn version'
+      command: |
+        corepack enable --install-directory="/home/circleci/bin"
+        yarn set version 4.5.0
+  - &install_dependencies
+    run:
+      name: 'Installing dependencies'
+      command: 'yarn install'
   - &save_cache
     save_cache:
       key: yarn-cache-{{ checksum "yarn.lock" }}
@@ -16,20 +24,20 @@ aliases:
         - ~/.cache/yarn
 
 jobs:
-  # Build/Test/lint
   ci:
     <<: *defaults
     steps:
       - checkout
-      - add_ssh_keys
+      # - add_ssh_keys # Uncomment to enable --autoRelease
       - *restore_cache
-      - *yarn_install
+      - *install_yarn
+      - *install_dependencies
       - *save_cache
       - run: 'yarn run ci'
 
 workflows:
   version: 2
-  # On every commit: Build/Test/Lint
+  # On every commit
   commit:
     jobs:
       - ci
