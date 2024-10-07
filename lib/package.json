@@ -17,7 +17,7 @@
     "time-span": "4.0.0"
   },
   "devDependencies": {
-    "firost": "3.1.0"
+    "firost": "4.0.1"
   },
   "description": "Meta-package of my most used modules.",
   "files": [
