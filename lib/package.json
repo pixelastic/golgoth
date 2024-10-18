@@ -3,7 +3,7 @@
   "type": "module",
   "dependencies": {
     "chalk": "4.1.2",
-    "dayjs": "1.11.10",
+    "dayjs": "1.11.13",
     "dedent": "0.7.0",
     "flat": "5.0.2",
     "got": "11.8.6",
