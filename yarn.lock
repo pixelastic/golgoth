@@ -11791,7 +11791,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "golgoth-docs@workspace:docs"
   dependencies:
-    norska: "npm:2.9.0"
+    norska: "npm:2.10.0"
     norska-theme-docs: "npm:5.0.3"
   languageName: unknown
   linkType: soft
@@ -15276,10 +15276,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimist@npm:1.2.5":
-  version: 1.2.5
-  resolution: "minimist@npm:1.2.5"
-  checksum: 10c0/c143b0c199af4df7a55c7a37b6465cdd438acdc6a3a345ba0fe9d94dfcc2042263f650879bc73be607c843deeaeaadf39c864e55bc6d80b36a025eca1a062ee7
+"minimist@npm:1.2.7":
+  version: 1.2.7
+  resolution: "minimist@npm:1.2.7"
+  checksum: 10c0/8808da67ca50ee19ab2d69051d77ee78572e67297fd8a1635ecc757a15106ccdfb5b8c4d11d84750120142f1684e5329a141295728c755e5d149eedd73cc6572
   languageName: node
   linkType: hard
 
@@ -16249,7 +16249,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"norska-assets@npm:^2.10.0, norska-assets@npm:^2.8.0":
+"norska-assets@npm:^2.10.0":
   version: 2.10.0
   resolution: "norska-assets@npm:2.10.0"
   dependencies:
@@ -16261,7 +16261,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"norska-cms@npm:^2.8.0":
+"norska-cms@npm:^2.10.0":
   version: 2.10.0
   resolution: "norska-cms@npm:2.10.0"
   dependencies:
@@ -16280,7 +16280,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"norska-config@npm:^2.10.0, norska-config@npm:^2.8.0":
+"norska-config@npm:^2.10.0":
   version: 2.10.0
   resolution: "norska-config@npm:2.10.0"
   dependencies:
@@ -16293,7 +16293,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"norska-css@npm:^2.10.0, norska-css@npm:^2.8.0":
+"norska-css@npm:^2.10.0":
   version: 2.10.0
   resolution: "norska-css@npm:2.10.0"
   dependencies:
@@ -16324,7 +16324,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"norska-frontend@npm:^2.10.0, norska-frontend@npm:^2.8.0":
+"norska-frontend@npm:^2.10.0":
   version: 2.10.0
   resolution: "norska-frontend@npm:2.10.0"
   dependencies:
@@ -16337,7 +16337,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"norska-helper@npm:^2.10.0, norska-helper@npm:^2.8.0":
+"norska-helper@npm:^2.10.0":
   version: 2.10.0
   resolution: "norska-helper@npm:2.10.0"
   dependencies:
@@ -16347,7 +16347,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"norska-html@npm:^2.10.0, norska-html@npm:^2.8.0":
+"norska-html@npm:^2.10.0":
   version: 2.10.0
   resolution: "norska-html@npm:2.10.0"
   dependencies:
@@ -16382,7 +16382,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"norska-init@npm:^2.8.0":
+"norska-init@npm:^2.10.0":
   version: 2.10.0
   resolution: "norska-init@npm:2.10.0"
   dependencies:
@@ -16394,7 +16394,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"norska-js@npm:^2.10.0, norska-js@npm:^2.8.0":
+"norska-js@npm:^2.10.0":
   version: 2.10.0
   resolution: "norska-js@npm:2.10.0"
   dependencies:
@@ -16408,7 +16408,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"norska-netlify@npm:^2.10.0, norska-netlify@npm:^2.8.0":
+"norska-netlify@npm:^2.10.0":
   version: 2.10.0
   resolution: "norska-netlify@npm:2.10.0"
   dependencies:
@@ -16424,7 +16424,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"norska-revv@npm:^2.8.0":
+"norska-revv@npm:^2.10.0":
   version: 2.10.0
   resolution: "norska-revv@npm:2.10.0"
   dependencies:
@@ -16437,7 +16437,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"norska-serve@npm:^2.8.0":
+"norska-serve@npm:^2.10.0":
   version: 2.10.0
   resolution: "norska-serve@npm:2.10.0"
   dependencies:
@@ -16474,29 +16474,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"norska@npm:2.9.0":
-  version: 2.9.0
-  resolution: "norska@npm:2.9.0"
+"norska@npm:2.10.0":
+  version: 2.10.0
+  resolution: "norska@npm:2.10.0"
   dependencies:
-    firost: "npm:2.16.2"
+    firost: "npm:2.17.0"
     golgoth: "npm:2.1.0"
-    minimist: "npm:1.2.5"
-    norska-assets: "npm:^2.8.0"
-    norska-cms: "npm:^2.8.0"
-    norska-config: "npm:^2.8.0"
-    norska-css: "npm:^2.8.0"
-    norska-frontend: "npm:^2.8.0"
-    norska-helper: "npm:^2.8.0"
-    norska-html: "npm:^2.8.0"
+    minimist: "npm:1.2.7"
+    norska-assets: "npm:^2.10.0"
+    norska-cms: "npm:^2.10.0"
+    norska-config: "npm:^2.10.0"
+    norska-css: "npm:^2.10.0"
+    norska-frontend: "npm:^2.10.0"
+    norska-helper: "npm:^2.10.0"
+    norska-html: "npm:^2.10.0"
     norska-image-proxy: "npm:^2.7.0"
-    norska-init: "npm:^2.8.0"
-    norska-js: "npm:^2.8.0"
-    norska-netlify: "npm:^2.8.0"
-    norska-revv: "npm:^2.8.0"
-    norska-serve: "npm:^2.8.0"
+    norska-init: "npm:^2.10.0"
+    norska-js: "npm:^2.10.0"
+    norska-netlify: "npm:^2.10.0"
+    norska-revv: "npm:^2.10.0"
+    norska-serve: "npm:^2.10.0"
   bin:
     norska: bin/norska
-  checksum: 10c0/6c77f56854e591f01cf4da94c2864c1c2ca97108a069d9c28cacc1ccc94f8af6bf94d9c3f90d6718778dc53cbb6794f9a65e8fb67990e3fae1411af2b466ac6d
+  checksum: 10c0/5835f1bfa8f6323504ee9f7226b935f7322070e3d5e3fae47386eeba8044f7bf87ce510c38925f62be2ba5e455fcc79db744bc0a9e32b58963c5c4e1ad295d1f
   languageName: node
   linkType: hard
 
