@@ -10824,35 +10824,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"firost@npm:4.0.1":
-  version: 4.0.1
-  resolution: "firost@npm:4.0.1"
-  dependencies:
-    callsites: "npm:4.2.0"
-    chokidar: "npm:4.0.1"
-    eventemitter2: "npm:6.4.9"
-    execa: "npm:5.1.1"
-    find-up: "npm:7.0.0"
-    fs-extra: "npm:11.2.0"
-    globby: "npm:14.0.2"
-    golgoth: "npm:2.4.0"
-    inquirer: "npm:8.2.6"
-    is-glob: "npm:4.0.3"
-    json-stable-stringify: "npm:1.1.1"
-    multimatch: "npm:7.0.0"
-    nanoid: "npm:5.0.7"
-    normalize-url: "npm:8.0.1"
-    ora: "npm:8.1.0"
-    rev-hash: "npm:4.1.0"
-    std-mocks: "npm:2.0.0"
-    strip-ansi: "npm:7.1.0"
-    temp-dir: "npm:3.0.0"
-    untildify: "npm:5.0.0"
-    which: "npm:5.0.0"
-  checksum: 10c0/5a68e3677b30f39f3d1360ff7f7cccc576010d634598fe44960aec85d8d6e62cea27217fc042197452712dc3f16bb3f95a12322ca48316eb16620cc379edd2dc
-  languageName: node
-  linkType: hard
-
 "firost@npm:4.3.0":
   version: 4.3.0
   resolution: "firost@npm:4.3.0"
@@ -11886,7 +11857,7 @@ __metadata:
     chalk: "npm:4.1.2"
     dayjs: "npm:1.11.13"
     dedent: "npm:0.7.0"
-    firost: "npm:4.0.1"
+    firost: "npm:4.3.0"
     flat: "npm:5.0.2"
     got: "npm:11.8.6"
     lodash: "npm:4.17.21"
