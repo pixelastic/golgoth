@@ -8369,10 +8369,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dayjs@npm:1.11.10":
-  version: 1.11.10
-  resolution: "dayjs@npm:1.11.10"
-  checksum: 10c0/4de9af50639d47df87f2e15fa36bb07e0f9ed1e9c52c6caa1482788ee9a384d668f1dbd00c54f82aaab163db07d61d2899384b8254da3a9184fc6deca080e2fe
+"dayjs@npm:1.11.13":
+  version: 1.11.13
+  resolution: "dayjs@npm:1.11.13"
+  checksum: 10c0/a3caf6ac8363c7dade9d1ee797848ddcf25c1ace68d9fe8678ecf8ba0675825430de5d793672ec87b24a69bf04a1544b176547b2539982275d5542a7955f35b7
   languageName: node
   linkType: hard
 
@@ -11914,7 +11914,7 @@ __metadata:
   resolution: "golgoth@workspace:lib"
   dependencies:
     chalk: "npm:5.3.0"
-    dayjs: "npm:1.11.10"
+    dayjs: "npm:1.11.13"
     firost: "npm:4.0.1"
     flat: "npm:6.0.1"
     got: "npm:11.8.6"
