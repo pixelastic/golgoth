@@ -33,7 +33,7 @@
     "time-span": "5.1.0"
   },
   "devDependencies": {
-    "firost": "4.8.0"
+    "firost": "4.9.0"
   },
   "scripts": {
     "build": "ABERLAAS_CWD=$INIT_CWD yarn g:build",
