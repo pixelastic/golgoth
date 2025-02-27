@@ -11403,9 +11403,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"firost@npm:4.9.0":
-  version: 4.9.0
-  resolution: "firost@npm:4.9.0"
+"firost@npm:5.0.0":
+  version: 5.0.0
+  resolution: "firost@npm:5.0.0"
   dependencies:
     "@inquirer/prompts": "npm:7.2.2"
     callsites: "npm:4.2.0"
@@ -11428,7 +11428,7 @@ __metadata:
     temp-dir: "npm:3.0.0"
     untildify: "npm:5.0.0"
     which: "npm:5.0.0"
-  checksum: 10c0/23cdc3ae065967cadd6f16808c5f67689e01e66447b02de21322f99342e884458231b28809be503943517ba68c6cff653ad47c5abe8428208ec58558ca124a37
+  checksum: 10c0/fa253afd6d5013a526cb425aab35f6fe7dd315c567ffd3c40aea07e5551c2d9ed404413e74d90ed9001661d492620151a21d6df2277c113eb390899c5fd9243f
   languageName: node
   linkType: hard
 
@@ -12493,7 +12493,7 @@ __metadata:
   dependencies:
     chalk: "npm:5.4.1"
     dayjs: "npm:1.11.13"
-    firost: "npm:4.9.0"
+    firost: "npm:5.0.0"
     flat: "npm:6.0.1"
     got: "npm:11.8.6"
     lodash: "npm:4.17.21"
