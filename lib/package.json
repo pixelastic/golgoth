@@ -24,12 +24,12 @@
     "flat": "6.0.1",
     "got": "11.8.6",
     "lodash": "4.17.21",
-    "p-all": "5.0.0",
+    "p-all": "5.0.1",
     "p-map": "7.0.3",
     "p-map-series": "3.0.0",
     "p-props": "6.0.0",
     "pify": "6.1.0",
-    "query-string": "9.3.0",
+    "query-string": "9.3.1",
     "time-span": "5.1.0"
   },
   "devDependencies": {
