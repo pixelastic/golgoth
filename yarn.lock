@@ -12500,7 +12500,7 @@ __metadata:
     p-all: "npm:5.0.1"
     p-map: "npm:7.0.3"
     p-map-series: "npm:3.0.0"
-    p-props: "npm:6.0.0"
+    p-props: "npm:6.1.0"
     pify: "npm:6.1.0"
     query-string: "npm:9.3.1"
     time-span: "npm:5.1.0"
@@ -17965,12 +17965,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-props@npm:6.0.0":
-  version: 6.0.0
-  resolution: "p-props@npm:6.0.0"
+"p-props@npm:6.1.0":
+  version: 6.1.0
+  resolution: "p-props@npm:6.1.0"
   dependencies:
     p-map: "npm:^6.0.0"
-  checksum: 10c0/9aacc5372e85076e7fe3cfca1e79819f66eadb13abcdd29a7702d1a7f0ea5c1771fdae92c858f73c357ef879e804acea8f7468a36f2a892a16e042fae407488d
+  checksum: 10c0/4a128c052797ee48c6c50d88e0fa687bec8dc0ba05378c300dd94f729d33e0953aa8721d15464daeda7c04a343b6d9ed5c4bd698501b174aba446be9cdc9b9d1
   languageName: node
   linkType: hard
 
