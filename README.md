@@ -17,7 +17,6 @@
 | ------------------ | --------------------- | -------------------------------------------------------------------------------------- |
 | [chalk][1]         | `golgoth/chalk`       | Terminal string styling done right                                                     |
 | [dayjs][2]         | `golgoth/dayjs`       | 2KB immutable date time library alternative to Moment.js with the same modern API      |
-| [dedent][12]       | `golgoth/dedent`      | An ES6 string tag that strips indentation from multi-line strings                      |
 | [got][4]           | `golgoth/got`         | Human-friendly and powerful HTTP request library for Node.js                           |
 | [Lodash][5]        | `golgoth/_`           | A modern JavaScript utility library delivering modularity, performance & extras.       |
 | [p-all][6]         | `golgoth/pAll`        | Run promise-returning & async functions concurrently with optional limited concurrency |
@@ -46,7 +45,6 @@ const _ = require('golgoth/lodash');
 [9]: https://yarnpkg.com/en/package/pify
 [10]: https://yarnpkg.com/en/package/query-string
 [11]: https://github.com/sindresorhus/p-props
-[12]: https://github.com/dmnd/dedent
 
 ## Documentation
 
