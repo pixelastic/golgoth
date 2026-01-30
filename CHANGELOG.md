@@ -1,3 +1,10 @@
+## v3.1.0
+
+
+### Features
+
+- **lodash:** Add replaceAll helper method (4765d23)
+
 ## [1.0.3](https://github.com/pixelastic/golgoth/compare/1.0.2...1.0.3) (2020-02-13)
 
 
@@ -281,4 +288,3 @@
 
 
 ## 0.0.2 (2018-11-10)
-
