@@ -12,7 +12,7 @@
   "packageManager": "yarn@4.12.0",
   "files": [],
   "devDependencies": {
-    "aberlaas": "2.13.0"
+    "aberlaas": "2.20.2"
   },
   "scripts": {
     "build": "./scripts/build",
