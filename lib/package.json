@@ -9,7 +9,7 @@
   "sideEffects": false,
   "license": "MIT",
   "engines": {
-    "node": ">=18.18.0"
+    "node": ">=22.18.0"
   },
   "files": [
     "*.js"
@@ -36,15 +36,15 @@
     "firost": "4.9.0"
   },
   "scripts": {
-    "build": "ABERLAAS_CWD=$INIT_CWD yarn g:build",
-    "build:prod": "ABERLAAS_CWD=$INIT_CWD yarn g:build:prod",
-    "cms": "ABERLAAS_CWD=$INIT_CWD yarn g:cms",
-    "serve": "ABERLAAS_CWD=$INIT_CWD yarn g:serve",
-    "release": "ABERLAAS_CWD=$INIT_CWD yarn g:release",
-    "test": "ABERLAAS_CWD=$INIT_CWD yarn g:test",
-    "test:watch": "ABERLAAS_CWD=$INIT_CWD yarn g:test:watch",
-    "compress": "ABERLAAS_CWD=$INIT_CWD yarn g:compress",
-    "lint": "ABERLAAS_CWD=$INIT_CWD yarn g:lint",
-    "lint:fix": "ABERLAAS_CWD=$INIT_CWD yarn g:lint:fix"
+    "build": "cd ../ && ./scripts/build",
+    "build:prod": "cd ../ && ./scripts/build-prod",
+    "cms": "cd ../ && ./scripts/cms",
+    "compress": "cd ../ && ./scripts/compress",
+    "lint": "cd ../ && ./scripts/lint",
+    "lint:fix": "cd ../ && ./scripts/lint-fix",
+    "release": "cd ../ && ./scripts/release",
+    "serve": "cd ../ && ./scripts/serve",
+    "test": "cd ../ && ./scripts/test",
+    "test:watch": "cd ../ && ./scripts/test-watch"
   }
 }
