@@ -1,18 +1,16 @@
 {
   "name": "golgoth-monorepo",
-  "type": "module",
   "private": true,
+  "type": "module",
   "workspaces": [
     "lib",
     "docs"
   ],
   "description": "golgoth monorepo",
   "homepage": "https://projects.pixelastic.com/golgoth/",
-  "keywords": [],
   "packageManager": "yarn@4.12.0",
-  "files": [],
   "devDependencies": {
-    "aberlaas": "2.21.1"
+    "aberlaas": "2.23.0"
   },
   "scripts": {
     "build": "./scripts/build",
