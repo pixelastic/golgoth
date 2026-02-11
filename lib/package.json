@@ -22,7 +22,7 @@
   },
   "main": "./main.js",
   "devDependencies": {
-    "firost": "4.9.0"
+    "firost": "5.6.1"
   },
   "dependencies": {
     "chalk": "5.6.2",
