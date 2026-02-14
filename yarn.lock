@@ -11067,34 +11067,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"firost@npm:2.15.0":
-  version: 2.15.0
-  resolution: "firost@npm:2.15.0"
-  dependencies:
-    callsites: "npm:3.1.0"
-    chokidar: "npm:3.5.2"
-    clear-module: "npm:4.1.1"
-    eventemitter2: "npm:6.4.4"
-    execa: "npm:5.1.1"
-    find-up: "npm:5.0.0"
-    fs-extra: "npm:10.0.0"
-    globby: "npm:11.0.4"
-    golgoth: "npm:2.0.0"
-    inquirer: "npm:8.1.1"
-    is-glob: "npm:4.0.1"
-    json-stable-stringify: "npm:1.0.1"
-    nanoid: "npm:3.1.23"
-    normalize-url: "npm:6.1.0"
-    ora: "npm:5.4.1"
-    std-mocks: "npm:1.0.1"
-    strip-ansi: "npm:6.0.0"
-    tempy: "npm:1.0.1"
-    untildify: "npm:4.0.0"
-    which: "npm:2.0.2"
-  checksum: 10c0/9214f11be47272635ed65680711738d2bcdf59d7559cdb98329aa63d18b1a4bf6f5017fc1808b8f77922577b1688f378c6341df3ea6939188e2f86e62e6de24e
-  languageName: node
-  linkType: hard
-
 "firost@npm:2.16.2":
   version: 2.16.2
   resolution: "firost@npm:2.16.2"
@@ -12315,8 +12287,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "golgoth-docs@workspace:docs"
   dependencies:
-    norska: "npm:2.10.0"
-    norska-theme-docs: "npm:5.0.3"
+    norska: "npm:3.0.0"
+    norska-theme-docs: "npm:6.0.0"
   languageName: unknown
   linkType: soft
 
@@ -16872,21 +16844,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"norska-assets@npm:^2.10.0":
-  version: 2.10.0
-  resolution: "norska-assets@npm:2.10.0"
+"norska-assets@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "norska-assets@npm:3.0.0"
   dependencies:
     firost: "npm:2.17.0"
     golgoth: "npm:2.1.0"
     imoen: "npm:1.2.0"
-    norska-config: "npm:^2.10.0"
-  checksum: 10c0/6b18d062044df200b02a89f2dd0c1605be663f7f01fadca73e52774838e97160494a218b1cd24d68f1f32bd8d4f3ca76f76640706a83f94dac283ca594043122
+    norska-config: "npm:^3.0.0"
+  checksum: 10c0/821ce732478cab76d6798674033597dd5ea6535983e700e1c2e9341a7f713151ee894d96be74d6106124a4654a65d1802120d5162e49e4c71dffb97ec2c3bb26
   languageName: node
   linkType: hard
 
-"norska-cms@npm:^2.10.0":
-  version: 2.10.0
-  resolution: "norska-cms@npm:2.10.0"
+"norska-cms@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "norska-cms@npm:3.0.0"
   dependencies:
     connect-livereload: "npm:0.6.1"
     express: "npm:4.18.2"
@@ -16895,30 +16867,30 @@ __metadata:
     livereload: "npm:0.9.3"
     multer: "npm:1.4.4"
     nodemon: "npm:2.0.20"
-    norska-config: "npm:^2.10.0"
-    norska-css: "npm:^2.10.0"
-    norska-helper: "npm:^2.10.0"
+    norska-config: "npm:^3.0.0"
+    norska-css: "npm:^3.0.0"
+    norska-helper: "npm:^3.0.0"
     open: "npm:8.4.0"
-  checksum: 10c0/d730f427e9c6102cdeae560cd22971f7119ca15feb620fec5c3927f8a9d07540241646e90a0f5093c0f7357c7a3941dbef56990ed7705ea849a2e848e441a4ab
+  checksum: 10c0/98a7e2c8ec3f4c655e13bbf9862b6ea1f46b85c02b582957f231b93dfb2f1323177c3d56393aea18452935f60824ea0be0ad05e14685eecd1d93ccad64ec0fc5
   languageName: node
   linkType: hard
 
-"norska-config@npm:^2.10.0":
-  version: 2.10.0
-  resolution: "norska-config@npm:2.10.0"
+"norska-config@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "norska-config@npm:3.0.0"
   dependencies:
     firost: "npm:2.17.0"
     get-port: "npm:5.1.1"
     golgoth: "npm:2.1.0"
-    norska-helper: "npm:^2.10.0"
-    norska-theme-default: "npm:^2.8.0"
-  checksum: 10c0/7bd9a2659ed9c3ad6ee6324563b74922030deaceb988e055b472a7cb63e791c225e72e6320beeeb9c0b6edc75e8f6510024e4055c3197aaaf2fbd969b3411b60
+    norska-helper: "npm:^3.0.0"
+    norska-theme-default: "npm:^3.0.0"
+  checksum: 10c0/51bb92a7c0827c5b1a880111a1330fbeee290d0209522477944cb16f64c02287f0d7bee3dbb19c1b6f4a815171c76d9b86d4387c5f893994ff1e2cac19acc6d2
   languageName: node
   linkType: hard
 
-"norska-css@npm:^2.10.0":
-  version: 2.10.0
-  resolution: "norska-css@npm:2.10.0"
+"norska-css@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "norska-css@npm:3.0.0"
   dependencies:
     "@tailwindcss/typography": "npm:0.4.1"
     cssnano: "npm:5.1.13"
@@ -16926,53 +16898,53 @@ __metadata:
     firost: "npm:2.17.0"
     golgoth: "npm:2.1.0"
     hex-rgb: "npm:4.3.0"
-    norska-config: "npm:^2.10.0"
-    norska-helper: "npm:^2.10.0"
+    norska-config: "npm:^3.0.0"
+    norska-helper: "npm:^3.0.0"
     postcss: "npm:8.4.18"
     postcss-import: "npm:14.1.0"
     postcss-nested: "npm:5.0.6"
     tailwindcss: "npm:1.9.6"
-  checksum: 10c0/f2c3db6ed126fc8d8495b309095c7a49db3b6e301e210a4c1a6ec283a85839fd7bf8ecd2d33889f9a33c9689492e44aea8aa475b6d4071646f1f75f87b0ca9a4
+  checksum: 10c0/58959889fd5fa152d6e356f918a2119d770c11df34b17b1adbfea7bc356650c96c200d1303422c4383485ce0773d4a77454c400cb246b231ecf858908aed5238
   languageName: node
   linkType: hard
 
-"norska-data@npm:^2.10.0":
-  version: 2.10.0
-  resolution: "norska-data@npm:2.10.0"
+"norska-data@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "norska-data@npm:3.0.0"
   dependencies:
     firost: "npm:2.17.0"
     golgoth: "npm:2.1.0"
-    norska-config: "npm:^2.10.0"
-  checksum: 10c0/f7155c07257a994d5908610226845943958a174471feee18ac15946f8389d34859bda2a4f6cb16acf979dc5bb5d8fd068e5a04374aac32ce6a9f8c00e2e7e5ed
+    norska-config: "npm:^3.0.0"
+  checksum: 10c0/77dac070a84571f27662a8c0a6aba5e104b51607ecfe79b3a07fde8aee205d5b69fbd4407222f12731ac9259b1af5cb5582d144f57ba4f129304d13cbc35c18d
   languageName: node
   linkType: hard
 
-"norska-frontend@npm:^2.10.0":
-  version: 2.10.0
-  resolution: "norska-frontend@npm:2.10.0"
+"norska-frontend@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "norska-frontend@npm:3.0.0"
   dependencies:
     algoliasearch: "npm:4.14.2"
     instantsearch.js: "npm:4.49.0"
     lazysizes: "npm:5.3.2"
     lodash-es: "npm:4.17.21"
-    norska-image-proxy: "npm:^2.7.0"
-  checksum: 10c0/6299af4df26a34b45e53c7892bf5c556aa52bdfdcb1bc58d4dcc1dd50291e1918c314f1f97c7e1741203192a014ee3ce115c23309546a0b1792e63544dafeb9b
+    norska-image-proxy: "npm:^3.0.0"
+  checksum: 10c0/95d7ed1bc015737a4f083e7ad3bfc24d2cafb550684cdcb829ce16aad4989880db847b21fc2985a706ac538279c6e58153d1f6706e780e944433b7a0b4eb41d0
   languageName: node
   linkType: hard
 
-"norska-helper@npm:^2.10.0":
-  version: 2.10.0
-  resolution: "norska-helper@npm:2.10.0"
+"norska-helper@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "norska-helper@npm:3.0.0"
   dependencies:
     firost: "npm:2.17.0"
     golgoth: "npm:2.1.0"
-  checksum: 10c0/428188d66e4a8a8b3e511dfcc37fa8c004e9125cc60c0731e8d2004fecc65b8e9058cede0e5df10761edbef11ebba6577ee2c6ffd7458c8d55aaf4d547208925
+  checksum: 10c0/a67cd539681592ec667c28741f98fd1f0fc2a2416d6f48661a3c7c0f951fbff80af1de5118fb59847de717ffe4df83aca9f61482c979ac94b174d206a37d3092
   languageName: node
   linkType: hard
 
-"norska-html@npm:^2.10.0":
-  version: 2.10.0
-  resolution: "norska-html@npm:2.10.0"
+"norska-html@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "norska-html@npm:3.0.0"
   dependencies:
     ensure-url-trailing-slash: "npm:0.1.6"
     firost: "npm:2.17.0"
@@ -16984,56 +16956,56 @@ __metadata:
     jstransformer-markdown-it: "npm:2.1.0"
     markdown-it: "npm:12.3.2"
     markdown-it-highlightjs: "npm:3.6.0"
-    norska-assets: "npm:^2.10.0"
-    norska-config: "npm:^2.10.0"
-    norska-data: "npm:^2.10.0"
-    norska-frontend: "npm:^2.10.0"
-    norska-helper: "npm:^2.10.0"
-    norska-image-proxy: "npm:^2.7.0"
+    norska-assets: "npm:^3.0.0"
+    norska-config: "npm:^3.0.0"
+    norska-data: "npm:^3.0.0"
+    norska-frontend: "npm:^3.0.0"
+    norska-helper: "npm:^3.0.0"
+    norska-image-proxy: "npm:^3.0.0"
     pug: "npm:3.0.2"
     slug: "npm:5.3.0"
-  checksum: 10c0/d33dbc57de06aefb17cf74c3d038186e9f3a7421749cd23517131d105cb67c6a699d95876f220bd7ed9f0bb516ce5a8026eb45678f2f2a0f9b624d38431759a2
+  checksum: 10c0/ca6a7ccf10b4e6a5211c8354b0fe494d8719109e489c98ac6d8b914bf12c6ef27854c40b63c1ef684f3146617f3f7e54491357d9cbfc6ec782cd979872814e83
   languageName: node
   linkType: hard
 
-"norska-image-proxy@npm:^2.7.0":
-  version: 2.7.0
-  resolution: "norska-image-proxy@npm:2.7.0"
+"norska-image-proxy@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "norska-image-proxy@npm:3.0.0"
   dependencies:
     shar-teel: "npm:0.0.4"
-  checksum: 10c0/22def128d6adadf3c9694905fd1fd6a634a9198cfa8615c19d422eb09450275282270d13732eb2ac131c498b5a0dc150ad9e9b6c2ce0c9671e06f6bcdb812afd
+  checksum: 10c0/e7a54c5b07f11bd4d56f8ec80165b3f4be42277e028f2484864d8b139e1bdfddd6558f6edd26367aab4c5402e3576e0afa90113543e34620680fd8f8f2f79eee
   languageName: node
   linkType: hard
 
-"norska-init@npm:^2.10.0":
-  version: 2.10.0
-  resolution: "norska-init@npm:2.10.0"
+"norska-init@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "norska-init@npm:3.0.0"
   dependencies:
     firost: "npm:2.17.0"
     golgoth: "npm:2.1.0"
-    norska-config: "npm:^2.10.0"
-    norska-netlify: "npm:^2.10.0"
-  checksum: 10c0/0ab5cc4d660c26c71e2f5f7e39d26e4ce34b1014019231353b3d02acc7cff6b9872d1fb2b525a488c8eb743f8f8a7312688eba72297144cc3c65b366745dd257
+    norska-config: "npm:^3.0.0"
+    norska-netlify: "npm:^3.0.0"
+  checksum: 10c0/649f12d9f6d1aec24fea63bc99e4ebc2862ca98fb0474bc93b8a01f7cc838c3b6f54fd7110be0faad73b5890ca746d2f6376184a1fb7bf03611d0721b0f1fb43
   languageName: node
   linkType: hard
 
-"norska-js@npm:^2.10.0":
-  version: 2.10.0
-  resolution: "norska-js@npm:2.10.0"
+"norska-js@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "norska-js@npm:3.0.0"
   dependencies:
     firost: "npm:2.17.0"
     golgoth: "npm:2.1.0"
-    norska-config: "npm:^2.10.0"
-    norska-helper: "npm:^2.10.0"
+    norska-config: "npm:^3.0.0"
+    norska-helper: "npm:^3.0.0"
     pug-loader: "npm:2.4.0"
     webpack: "npm:5.89.0"
-  checksum: 10c0/fefdfa0025f33379f10f1920dc26ed2fc5dd999c5fc451c3d2763486d555e2e2f604acebe9953c7adbcbdda608b929dde57fcb88448e04b766690f66c81f1abe
+  checksum: 10c0/b6aa1c25d774c98f19ffe47422ea438e0dfe7d689e19061b62a30b4abce1a57c274695c8361a9a11d7375f0b381ccadc06470832e98e936f1046dafb862a75fe
   languageName: node
   linkType: hard
 
-"norska-netlify@npm:^2.10.0":
-  version: 2.10.0
-  resolution: "norska-netlify@npm:2.10.0"
+"norska-netlify@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "norska-netlify@npm:3.0.0"
   dependencies:
     firost: "npm:2.17.0"
     gilmore: "npm:0.1.0"
@@ -17041,28 +17013,28 @@ __metadata:
     multimatch: "npm:5.0.0"
     netlify: "npm:8.0.4"
     netlify-cli: "npm:6.15.0"
-    norska-config: "npm:^2.10.0"
-    norska-helper: "npm:^2.10.0"
-  checksum: 10c0/ac98a3ce70d268b37db1ebb6e45b186ba1a904261dca2c5e50afc0d4e398ae7867c3d7f491543235420e0251424d2490eaf7d79f6b929dff9c96887d3b782ecc
+    norska-config: "npm:^3.0.0"
+    norska-helper: "npm:^3.0.0"
+  checksum: 10c0/5a8625b30fc960343f97fba4a4fbb14c38c80a516fb04ddbc01a928de83df966ae48c991cdced56969c367d1e374895eb82661ae1ff144e9fbcd99c5e689734b
   languageName: node
   linkType: hard
 
-"norska-revv@npm:^2.10.0":
-  version: 2.10.0
-  resolution: "norska-revv@npm:2.10.0"
+"norska-revv@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "norska-revv@npm:3.0.0"
   dependencies:
     firost: "npm:2.17.0"
     golgoth: "npm:2.1.0"
-    norska-config: "npm:^2.10.0"
-    norska-helper: "npm:^2.10.0"
+    norska-config: "npm:^3.0.0"
+    norska-helper: "npm:^3.0.0"
     rev-hash: "npm:^3.0.0"
-  checksum: 10c0/b5f01bda5dd17fb8c21093fa2b2ead672959e13b648eeb10c775d94b13666399dc3cd82a8e69c178b7362f67999011e4adabc10ab93c8b2e75fc8f33eea05f97
+  checksum: 10c0/c196c9f648a42143c5a6eb8080938c46c77e022752f4b5240d3d0b17b01905d74ad9bb06bf475027a9c09c6ecf5a63ab93d4aff31c061b9b329cb428f100d7aa
   languageName: node
   linkType: hard
 
-"norska-serve@npm:^2.10.0":
-  version: 2.10.0
-  resolution: "norska-serve@npm:2.10.0"
+"norska-serve@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "norska-serve@npm:3.0.0"
   dependencies:
     connect-livereload: "npm:0.6.1"
     express: "npm:4.18.2"
@@ -17070,56 +17042,56 @@ __metadata:
     get-port: "npm:5.1.1"
     golgoth: "npm:2.1.0"
     livereload: "npm:0.9.3"
-    norska-assets: "npm:^2.10.0"
-    norska-config: "npm:^2.10.0"
-    norska-css: "npm:^2.10.0"
-    norska-html: "npm:^2.10.0"
-    norska-js: "npm:^2.10.0"
+    norska-assets: "npm:^3.0.0"
+    norska-config: "npm:^3.0.0"
+    norska-css: "npm:^3.0.0"
+    norska-html: "npm:^3.0.0"
+    norska-js: "npm:^3.0.0"
     open: "npm:8.4.0"
-  checksum: 10c0/3618dc8eb2a1972aedcf4accdb6ba8289b8c848053b4a5748a8ba352392a74a9ad9569bad2a8d87fbaf00723e8c18e2c77ebb69e6080a6aefc690aa45347b8b6
+  checksum: 10c0/3e5626e2a3227d3016e17cab700bdaf3e29384e3fac6f6260bc070c3491c6adfc1e316941a603ba1079e3fa8d7e0c4ae3cd7229c112971e93ec0617710066f70
   languageName: node
   linkType: hard
 
-"norska-theme-default@npm:^2.8.0":
-  version: 2.8.0
-  resolution: "norska-theme-default@npm:2.8.0"
-  checksum: 10c0/1b8cbe848f6ea0df184879a9f85b9de96ac2c9440a3982a5b8aeea9b22403cefb7819bd2c7c2a8ef4ac5a3eb7a22b8c29ffd329cdd6ec91fb249d22f4a95795b
+"norska-theme-default@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "norska-theme-default@npm:3.0.0"
+  checksum: 10c0/e52d30f89a58c91cdeef44dc21ea9e6ac4f57435d5e50004c76d9ea1c2b4935d87ea184c517fc375db3d3e336c3fcbc206e353b5345fa3bd665a8a95e85bfef0
   languageName: node
   linkType: hard
 
-"norska-theme-docs@npm:5.0.3":
-  version: 5.0.3
-  resolution: "norska-theme-docs@npm:5.0.3"
+"norska-theme-docs@npm:6.0.0":
+  version: 6.0.0
+  resolution: "norska-theme-docs@npm:6.0.0"
   dependencies:
-    firost: "npm:2.15.0"
+    firost: "npm:2.17.0"
     parse-github-repo-url: "npm:1.4.1"
-  checksum: 10c0/bdb74a82d6b4658f4fd65ad00a4620962dcd645c3526a3ebf6f36a21b962ca66fe1af6952820b3cb6fad36ea148aa5c783b1199842806b0d9ba681b437678e44
+  checksum: 10c0/63715890939b6b1672c34976a6a0af22dee189c049ffe36288ad015bd73762fe1414ba8dac41c3f7492a1f9182ca0b3d95855dda6c573ef684066c128233fbc7
   languageName: node
   linkType: hard
 
-"norska@npm:2.10.0":
-  version: 2.10.0
-  resolution: "norska@npm:2.10.0"
+"norska@npm:3.0.0":
+  version: 3.0.0
+  resolution: "norska@npm:3.0.0"
   dependencies:
     firost: "npm:2.17.0"
     golgoth: "npm:2.1.0"
     minimist: "npm:1.2.7"
-    norska-assets: "npm:^2.10.0"
-    norska-cms: "npm:^2.10.0"
-    norska-config: "npm:^2.10.0"
-    norska-css: "npm:^2.10.0"
-    norska-frontend: "npm:^2.10.0"
-    norska-helper: "npm:^2.10.0"
-    norska-html: "npm:^2.10.0"
-    norska-image-proxy: "npm:^2.7.0"
-    norska-init: "npm:^2.10.0"
-    norska-js: "npm:^2.10.0"
-    norska-netlify: "npm:^2.10.0"
-    norska-revv: "npm:^2.10.0"
-    norska-serve: "npm:^2.10.0"
+    norska-assets: "npm:^3.0.0"
+    norska-cms: "npm:^3.0.0"
+    norska-config: "npm:^3.0.0"
+    norska-css: "npm:^3.0.0"
+    norska-frontend: "npm:^3.0.0"
+    norska-helper: "npm:^3.0.0"
+    norska-html: "npm:^3.0.0"
+    norska-image-proxy: "npm:^3.0.0"
+    norska-init: "npm:^3.0.0"
+    norska-js: "npm:^3.0.0"
+    norska-netlify: "npm:^3.0.0"
+    norska-revv: "npm:^3.0.0"
+    norska-serve: "npm:^3.0.0"
   bin:
     norska: bin/norska
-  checksum: 10c0/5835f1bfa8f6323504ee9f7226b935f7322070e3d5e3fae47386eeba8044f7bf87ce510c38925f62be2ba5e455fcc79db744bc0a9e32b58963c5c4e1ad295d1f
+  checksum: 10c0/ecbd9df03fb32e07c03e04894392d4483f11bf086d30f66a0d0fbb3257c9231b4cfe60a5d835ce0b3a66beff5ee32c071315064e7dac8cf6d395627705ef0947
   languageName: node
   linkType: hard
 
@@ -21988,7 +21960,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tempy@npm:1.0.1, tempy@npm:^1.0.0":
+"tempy@npm:^1.0.0":
   version: 1.0.1
   resolution: "tempy@npm:1.0.1"
   dependencies:
