@@ -1,24 +1,22 @@
 {
+  "name": "golgoth-docs",
+  "private": true,
+  "type": "commonjs",
+  "description": "Documentation website of firost",
   "dependencies": {
     "norska": "2.10.0",
     "norska-theme-docs": "5.0.3"
   },
-  "files": [],
-  "homepage": "https://projects.pixelastic.com/golgoth/",
-  "keywords": [],
-  "name": "golgoth-docs",
-  "private": true,
   "scripts": {
     "build": "yarn g:build",
     "build:prod": "yarn g:build:prod",
     "cms": "yarn g:cms",
-    "serve": "yarn g:serve",
-    "release": "yarn g:release",
-    "test": "yarn g:test",
-    "test:watch": "yarn g:test:watch",
     "compress": "yarn g:compress",
     "lint": "yarn g:lint",
-    "lint:fix": "yarn g:lint:fix"
-  },
-  "version": "3.0.0"
+    "lint:fix": "yarn g:lint:fix",
+    "release": "yarn g:release",
+    "serve": "yarn g:serve",
+    "test": "yarn g:test",
+    "test:watch": "yarn g:test:watch"
+  }
 }
