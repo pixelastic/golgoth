@@ -15,13 +15,12 @@
 
 | Library name       | Required  as          | Description                                                                            |
 | ------------------ | --------------------- | -------------------------------------------------------------------------------------- |
-| [chalk][1]         | `golgoth/chalk`       | Terminal string styling done right                                                     |
+| [yoctocolors][1]   | `golgoth/yoctocolors` | The smallest and fastest command-line coloring package on the internet                 |
 | [dayjs][2]         | `golgoth/dayjs`       | 2KB immutable date time library alternative to Moment.js with the same modern API      |
 | [got][4]           | `golgoth/got`         | Human-friendly and powerful HTTP request library for Node.js                           |
 | [Lodash][5]        | `golgoth/_`           | A modern JavaScript utility library delivering modularity, performance & extras.       |
 | [p-all][6]         | `golgoth/pAll`        | Run promise-returning & async functions concurrently with optional limited concurrency |
-| [p-map-series][8]  | `golgoth/pMapSeries`  | Map over promises serially                                                             |
-| [p-map][7]         | `golgoth/pMap`        | Map over promises concurrently                                                         |
+| [p-map][7]         | `golgoth/pMap`        | Map over promises concurrently (use `{concurrency: 1}` for serial execution)           |
 | [p-props][11]      | `golgoth/pProps`      | Like Promise.all() but for Map and Object                                              |
 | [pify][9]          | `golgoth/pify`        | Promisify a callback-style function                                                    |
 | [query-string][10] | `golgoth/queryString` | Parse and stringify URL query strings                                                  |
@@ -34,7 +33,7 @@ const pMap = require('golgoth/pMap');
 const _ = require('golgoth/lodash');
 ```
 
-[1]: https://yarnpkg.com/en/package/chalk
+[1]: https://yarnpkg.com/en/package/yoctocolors
 [2]: https://yarnpkg.com/en/package/dayjs
 [3]: https://yarnpkg.com/en/package/time-span
 [4]: https://yarnpkg.com/en/package/got

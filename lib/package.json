@@ -25,18 +25,17 @@
     "firost": "4.9.0"
   },
   "dependencies": {
-    "chalk": "5.6.2",
     "dayjs": "1.11.19",
     "flat": "6.0.1",
     "got": "11.8.6",
     "lodash": "4.17.23",
     "p-all": "5.0.1",
     "p-map": "7.0.4",
-    "p-map-series": "3.0.0",
     "p-props": "6.1.0",
     "pify": "6.1.0",
     "query-string": "9.3.1",
-    "time-span": "5.1.0"
+    "time-span": "5.1.0",
+    "yoctocolors": "2.1.2"
   },
   "scripts": {
     "build": "cd ../ && ./scripts/build",
