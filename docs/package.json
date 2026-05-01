@@ -2,7 +2,7 @@
   "name": "golgoth-docs",
   "private": true,
   "type": "commonjs",
-  "description": "Documentation website of firost",
+  "description": "Documentation website of golgoth",
   "dependencies": {
     "norska": "2.10.0",
     "norska-theme-docs": "5.0.3"
