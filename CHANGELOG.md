@@ -1,3 +1,18 @@
+## v4.0.0
+
+[compare changes](https://github.com/pixelastic/golgoth/compare/v3.1.0...v4.0.0)
+
+### Features
+
+- ⚠️  Major v4.0.0 breaking changes ([07cb60c](https://github.com/pixelastic/golgoth/commit/07cb60c))
+  - Removed `chalk`, added `yoctocolors`
+  - Removed `p-map-series` (use `p-map` with `{ concurrency: 1}` instead)
+  - Remove `export default` god object, use named imports only
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Major v4.0.0 breaking changes ([07cb60c](https://github.com/pixelastic/golgoth/commit/07cb60c))
+
 ## v3.1.0
 
 
