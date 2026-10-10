@@ -12520,7 +12520,7 @@ __metadata:
     got: "npm:11.8.6"
     lodash: "npm:4.18.1"
     p-all: "npm:5.0.1"
-    p-map: "npm:7.0.8"
+    p-map: "npm:7.1.0"
     p-props: "npm:6.1.0"
     pify: "npm:6.1.0"
     query-string: "npm:9.5.1"
@@ -17941,10 +17941,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-map@npm:7.0.8":
-  version: 7.0.8
-  resolution: "p-map@npm:7.0.8"
-  checksum: 10c0/1913c452dce4e17e87f7e91d998a191b9b44b97a81f5dd0c7154d2eb00179c41465f414fa23a5b2ef5644a4124cef348a88bbfc9cff6fd56551650a8c4ff1211
+"p-map@npm:7.1.0":
+  version: 7.1.0
+  resolution: "p-map@npm:7.1.0"
+  checksum: 10c0/b4f496b8d9fbbff7e4f8fb7f2f7d7afe9f01fc3a432dddcad786417540425036b909e3db5f18397a4687b52ccb2f2eb00aded40014ea9be227d246941a548d0d
   languageName: node
   linkType: hard
 
