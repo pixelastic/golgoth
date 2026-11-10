@@ -1,3 +1,9 @@
+## v4.1.1
+
+[compare changes](https://github.com/pixelastic/golgoth/compare/v4.1.0...v4.1.1)
+
+Previous minor release failed because of a CI mistake. This should work.
+
 ## v4.1.0
 
 [compare changes](https://github.com/pixelastic/golgoth/compare/v4.0.0...v4.1.0)
