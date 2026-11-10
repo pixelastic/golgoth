@@ -33,7 +33,7 @@
     "p-map": "7.1.1",
     "p-props": "6.1.0",
     "pify": "6.1.0",
-    "query-string": "9.5.1",
+    "query-string": "10.0.0",
     "time-span": "5.1.0",
     "yoctocolors": "2.2.0"
   },
