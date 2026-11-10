@@ -1,3 +1,9 @@
+## v4.1.0
+
+[compare changes](https://github.com/pixelastic/golgoth/compare/v4.0.0...v4.1.0)
+
+Updating internal dependencies.
+
 ## v4.0.0
 
 [compare changes](https://github.com/pixelastic/golgoth/compare/v3.1.0...v4.0.0)
