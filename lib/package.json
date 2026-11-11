@@ -22,7 +22,7 @@
   },
   "main": "./main.js",
   "devDependencies": {
-    "firost": "5.11.0"
+    "firost": "5.11.2"
   },
   "dependencies": {
     "dayjs": "1.11.23",
